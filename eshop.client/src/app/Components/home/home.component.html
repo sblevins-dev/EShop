@@ -19,20 +19,24 @@
 <section class="max-w-7xl mx-auto px-6 py-12">
   <h2 class="text-2xl font-bold mb-6">Shop by Category</h2>
   <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center">
-      <img src="assets/images/shoes.jpg" alt="Shoes" class="mx-auto h-24 mb-4" />
+    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center"
+      (click)="goToCategory('Shoes')">
+      <img src="/assets/categories/shoes.jpg" alt="Shoes" class="mx-auto h-32 mb-4" />
       <h3 class="font-semibold">Shoes</h3>
     </div>
-    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center">
-      <img src="assets/images/clothing.jpg" alt="Clothing" class="mx-auto h-24 mb-4" />
+    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center"
+      (click)="goToCategory('Clothing')">
+      <img src="/assets/categories/clothing.jpg" alt="Clothing" class="mx-auto h-32 mb-4" />
       <h3 class="font-semibold">Clothing</h3>
     </div>
-    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center">
-      <img src="assets/images/electronics.jpg" alt="Electronics" class="mx-auto h-24 mb-4" />
+    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center"
+      (click)="goToCategory('Electronics')">
+      <img src="/assets/categories/electronics.png" alt="Electronics" class="mx-auto h-32 mb-4" />
       <h3 class="font-semibold">Electronics</h3>
     </div>
-    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center">
-      <img src="assets/images/accessories.jpg" alt="Accessories" class="mx-auto h-24 mb-4" />
+    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center"
+      (click)="goToCategory('Accessories')">
+      <img src="/assets/categories/accessories.png" alt="Accessories" class="mx-auto h-32 mb-4" />
       <h3 class="font-semibold">Accessories</h3>
     </div>
   </div>

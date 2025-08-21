@@ -8,6 +8,7 @@ export interface Product {
   price: number;
   stock: number;
   isFeatured: boolean;
+  category: string;
   imageURL: string;
 }
 

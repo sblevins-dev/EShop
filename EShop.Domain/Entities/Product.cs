@@ -15,5 +15,6 @@ namespace EShop.Domain.Entities
         public int Stock { get; set; }
         public bool IsFeatured { get; set; }
         public string ImageURL { get; set; } = "";
+        public string Category { get; set; } = "";
     }
 }

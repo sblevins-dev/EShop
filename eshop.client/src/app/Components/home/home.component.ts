@@ -1,6 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { Product, ProductService } from '../../Services/product.service';
 import { CartService } from '../../Services/cart.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -11,6 +12,7 @@ export class HomeComponent implements OnInit {
   featuredProducts: Product[] = [];
   productService: ProductService = inject(ProductService);
   cartService: CartService = inject(CartService);
+  router: Router = inject(Router);
 
   ngOnInit(): void {
     this.productService.getFeaturedProducts().subscribe(products => {
@@ -21,5 +23,9 @@ export class HomeComponent implements OnInit {
   addToCart(product: Product) {
     this.cartService.addToCart(product);
     alert(`${product.name} has been added to the cart.`);
+  }
+
+  goToCategory(category: string) {
+    this.router.navigate(['/products'], { queryParams: { category } });
   }
 }

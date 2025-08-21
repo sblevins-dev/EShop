@@ -1,182 +1,202 @@
 [
   {
     "id": 1,
-    "name": "Wireless Mouse",
-    "description": "Ergonomic wireless mouse with adjustable DPI.",
-    "price": 25.99,
+    "name": "Running Shoes",
+    "description": "Comfortable running shoes",
+    "price": 79.99,
     "stock": 50,
+    "category": "Shoes",
     "isFeatured": true,
-    "imageUrl": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=400&q=80"
+    "imageURL": "https://via.placeholder.com/300x300?text=Running+Shoes"
   },
   {
     "id": 2,
-    "name": "Mechanical Keyboard",
-    "description": "RGB mechanical keyboard with blue switches.",
-    "price": 89.99,
-    "stock": 30,
+    "name": "Sneakers",
+    "description": "Stylish casual sneakers",
+    "price": 65.50,
+    "stock": 40,
+    "category": "Shoes",
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1585079547351-2b30a0a8d1e3?auto=format&fit=crop&w=400&q=80"
+    "imageURL": "https://via.placeholder.com/300x300?text=Sneakers"
   },
   {
     "id": 3,
-    "name": "HD Monitor",
-    "description": "27-inch full HD monitor with slim bezels.",
-    "price": 179.99,
+    "name": "Leather Jacket",
+    "description": "Premium leather jacket",
+    "price": 199.99,
     "stock": 20,
+    "category": "Clothing",
     "isFeatured": true,
-    "imageUrl": "https://images.unsplash.com/photo-1581291518835-1f9f0adf7e2e?auto=format&fit=crop&w=400&q=80"
+    "imageURL": "https://via.placeholder.com/300x300?text=Leather+Jacket"
   },
   {
     "id": 4,
-    "name": "USB-C Charger",
-    "description": "65W fast charger compatible with most devices.",
-    "price": 29.99,
-    "stock": 100,
+    "name": "Jeans",
+    "description": "Classic blue jeans",
+    "price": 49.99,
+    "stock": 60,
+    "category": "Clothing",
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1580910051073-0534cfae0c99?auto=format&fit=crop&w=400&q=80"
+    "imageURL": "https://via.placeholder.com/300x300?text=Jeans"
   },
   {
     "id": 5,
-    "name": "Bluetooth Headphones",
-    "description": "Over-ear wireless headphones with noise cancellation.",
-    "price": 129.99,
-    "stock": 40,
+    "name": "Smartphone",
+    "description": "Latest model smartphone",
+    "price": 699.99,
+    "stock": 30,
+    "category": "Electronics",
     "isFeatured": true,
-    "imageUrl": "https://images.unsplash.com/photo-1580894908361-7a9b2f39f5c0?auto=format&fit=crop&w=400&q=80"
+    "imageURL": "https://via.placeholder.com/300x300?text=Smartphone"
   },
   {
     "id": 6,
-    "name": "Smartphone Stand",
-    "description": "Adjustable aluminum stand for smartphones and tablets.",
-    "price": 15.99,
-    "stock": 70,
+    "name": "Laptop",
+    "description": "High-performance laptop",
+    "price": 1199.99,
+    "stock": 15,
+    "category": "Electronics",
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1585079547146-1c79ebfc2d88?auto=format&fit=crop&w=400&q=80"
+    "imageURL": "https://via.placeholder.com/300x300?text=Laptop"
   },
   {
     "id": 7,
-    "name": "Gaming Chair",
-    "description": "High-back gaming chair with lumbar support.",
-    "price": 199.99,
-    "stock": 15,
-    "isFeatured": true,
-    "imageUrl": "https://images.unsplash.com/photo-1581349489573-fd0df029ca42?auto=format&fit=crop&w=400&q=80"
+    "name": "Headphones",
+    "description": "Noise-cancelling headphones",
+    "price": 149.99,
+    "stock": 25,
+    "category": "Electronics",
+    "isFeatured": false,
+    "imageURL": "https://via.placeholder.com/300x300?text=Headphones"
   },
   {
     "id": 8,
-    "name": "External SSD",
-    "description": "1TB portable solid-state drive with USB 3.1.",
-    "price": 149.99,
-    "stock": 25,
-    "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1580910051170-df87e3b0719b?auto=format&fit=crop&w=400&q=80"
+    "name": "Smartwatch",
+    "description": "Stylish smartwatch",
+    "price": 199.99,
+    "stock": 35,
+    "category": "Electronics",
+    "isFeatured": true,
+    "imageURL": "https://via.placeholder.com/300x300?text=Smartwatch"
   },
   {
     "id": 9,
-    "name": "Smartwatch",
-    "description": "Water-resistant smartwatch with fitness tracking.",
-    "price": 99.99,
-    "stock": 60,
-    "isFeatured": true,
-    "imageUrl": "https://images.unsplash.com/photo-1580910051450-0b8a6e2c123c?auto=format&fit=crop&w=400&q=80"
+    "name": "Backpack",
+    "description": "Durable travel backpack",
+    "price": 59.99,
+    "stock": 50,
+    "category": "Accessories",
+    "isFeatured": false,
+    "imageURL": "https://via.placeholder.com/300x300?text=Backpack"
   },
   {
     "id": 10,
-    "name": "LED Desk Lamp",
-    "description": "Touch control lamp with adjustable brightness.",
-    "price": 35.99,
-    "stock": 45,
-    "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1580910051181-6b1d8e0f8d6e?auto=format&fit=crop&w=400&q=80"
+    "name": "Sunglasses",
+    "description": "UV-protected sunglasses",
+    "price": 29.99,
+    "stock": 70,
+    "category": "Accessories",
+    "isFeatured": true,
+    "imageURL": "https://via.placeholder.com/300x300?text=Sunglasses"
   },
   {
     "id": 11,
-    "name": "Portable Speaker",
-    "description": "Waterproof Bluetooth speaker with deep bass.",
-    "price": 59.99,
-    "stock": 55,
-    "isFeatured": true,
-    "imageUrl": "https://images.unsplash.com/photo-1580910051380-3d5b8a3e9c50?auto=format&fit=crop&w=400&q=80"
+    "name": "Hat",
+    "description": "Cotton baseball cap",
+    "price": 19.99,
+    "stock": 100,
+    "category": "Accessories",
+    "isFeatured": false,
+    "imageURL": "https://via.placeholder.com/300x300?text=Hat"
   },
   {
     "id": 12,
-    "name": "Wireless Earbuds",
-    "description": "True wireless earbuds with charging case.",
-    "price": 49.99,
+    "name": "T-shirt",
+    "description": "100% cotton T-shirt",
+    "price": 24.99,
     "stock": 80,
+    "category": "Clothing",
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1580910051019-74c1c7c8a5a3?auto=format&fit=crop&w=400&q=80"
+    "imageURL": "https://via.placeholder.com/300x300?text=T-shirt"
   },
   {
     "id": 13,
-    "name": "Laptop Backpack",
-    "description": "Durable backpack with USB charging port.",
-    "price": 45.99,
-    "stock": 35,
+    "name": "Dress",
+    "description": "Elegant evening dress",
+    "price": 129.99,
+    "stock": 25,
+    "category": "Clothing",
     "isFeatured": true,
-    "imageUrl": "https://images.unsplash.com/photo-1580910051115-4c7c1e2d8a77?auto=format&fit=crop&w=400&q=80"
+    "imageURL": "https://via.placeholder.com/300x300?text=Dress"
   },
   {
     "id": 14,
-    "name": "4K Streaming Stick",
-    "description": "Streaming device with voice control.",
-    "price": 69.99,
-    "stock": 50,
+    "name": "Tablet",
+    "description": "Lightweight tablet",
+    "price": 399.99,
+    "stock": 20,
+    "category": "Electronics",
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1580910051250-7e3c1d9b0a66?auto=format&fit=crop&w=400&q=80"
+    "imageURL": "https://via.placeholder.com/300x300?text=Tablet"
   },
   {
     "id": 15,
-    "name": "Electric Kettle",
-    "description": "Stainless steel kettle with auto shut-off.",
-    "price": 39.99,
-    "stock": 30,
+    "name": "Camera",
+    "description": "Digital camera for photography",
+    "price": 549.99,
+    "stock": 10,
+    "category": "Electronics",
     "isFeatured": true,
-    "imageUrl": "https://images.unsplash.com/photo-1580910051350-9d2b1f4d7e89?auto=format&fit=crop&w=400&q=80"
+    "imageURL": "https://via.placeholder.com/300x300?text=Camera"
   },
   {
     "id": 16,
-    "name": "Smart LED Bulb",
-    "description": "WiFi-enabled color-changing light bulb.",
-    "price": 19.99,
-    "stock": 100,
+    "name": "Belt",
+    "description": "Leather belt",
+    "price": 34.99,
+    "stock": 60,
+    "category": "Accessories",
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1580910051457-7c2c4a0d9e1f?auto=format&fit=crop&w=400&q=80"
+    "imageURL": "https://via.placeholder.com/300x300?text=Belt"
   },
   {
     "id": 17,
-    "name": "Drone",
-    "description": "Mini drone with 4K camera and GPS.",
-    "price": 249.99,
-    "stock": 10,
+    "name": "Boots",
+    "description": "Winter boots",
+    "price": 119.99,
+    "stock": 30,
+    "category": "Shoes",
     "isFeatured": true,
-    "imageUrl": "https://images.unsplash.com/photo-1580910051555-6a5f7d2b0e5c?auto=format&fit=crop&w=400&q=80"
+    "imageURL": "https://via.placeholder.com/300x300?text=Boots"
   },
   {
     "id": 18,
-    "name": "Electric Toothbrush",
-    "description": "Rechargeable toothbrush with multiple modes.",
-    "price": 59.99,
-    "stock": 40,
+    "name": "Scarf",
+    "description": "Wool scarf",
+    "price": 24.99,
+    "stock": 50,
+    "category": "Accessories",
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1580910051643-4d7b3c8a6b5e?auto=format&fit=crop&w=400&q=80"
+    "imageURL": "https://via.placeholder.com/300x300?text=Scarf"
   },
   {
     "id": 19,
-    "name": "Action Camera",
-    "description": "Waterproof action camera with 4K recording.",
-    "price": 129.99,
-    "stock": 20,
-    "isFeatured": true,
-    "imageUrl": "https://images.unsplash.com/photo-1580910051735-2c6b1f0d8f33?auto=format&fit=crop&w=400&q=80"
+    "name": "Jacket",
+    "description": "Waterproof jacket",
+    "price": 149.99,
+    "stock": 40,
+    "category": "Clothing",
+    "isFeatured": false,
+    "imageURL": "https://via.placeholder.com/300x300?text=Jacket"
   },
   {
     "id": 20,
-    "name": "Power Bank",
-    "description": "20000mAh portable charger with fast charging.",
+    "name": "Sandals",
+    "description": "Comfortable summer sandals",
     "price": 39.99,
-    "stock": 75,
+    "stock": 60,
+    "category": "Shoes",
     "isFeatured": false,
-    "imageUrl": "https://images.unsplash.com/photo-1580910051843-1c6c7e2d8b44?auto=format&fit=crop&w=400&q=80"
+    "imageURL": "https://via.placeholder.com/300x300?text=Sandals"
   }
 ]

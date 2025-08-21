@@ -16,6 +16,7 @@ public class ProductTests
             Description = "This is a test product.",
             Stock = 100,
             IsFeatured = true,
+            Category = "Test Category",
             ImageURL = "http://example.com/image.jpg"
         };
 
@@ -25,6 +26,7 @@ public class ProductTests
         Assert.AreEqual("This is a test product.", product.Description);
         Assert.AreEqual(100, product.Stock);
         Assert.IsTrue(product.IsFeatured);
+        Assert.AreEqual("Test Category", product.Category);
         Assert.AreEqual("http://example.com/image.jpg", product.ImageURL);
     }
 
@@ -38,6 +40,7 @@ public class ProductTests
         Assert.AreEqual(0m, product.Price);
         Assert.AreEqual(0, product.Stock);
         Assert.IsFalse(product.IsFeatured);
+        Assert.AreEqual("", product.Category);
         Assert.AreEqual("", product.ImageURL);
     }
 }
