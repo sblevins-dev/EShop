@@ -17,6 +17,11 @@
           {{ cartService.getItems().length }}
         </span>
       </a>
+      <!-- Badge -->
+      <span *ngIf="cartService.getItems().length > 0"
+        class="absolute -top-2 -right-3 bg-yellow-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
+        {{ cartItemCount }}
+      </span>
     </li>
   </ul>
 </nav>
