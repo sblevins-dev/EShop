@@ -54,7 +54,6 @@ export class ProductPageComponent {
 
   addToCart(product: Product) {
     this.cartService.addToCart(product);
-    alert(`${product.title} has been added to the cart.`);
   }
 
   filterByCategory(category: string) {

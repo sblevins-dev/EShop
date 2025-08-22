@@ -1,8 +1,6 @@
 <!-- Hero Section -->
-<section 
-  class="relative bg-cover bg-center py-16 h-96 flex items-center" 
-  style="background-image: url('assets/hero.jpg');"
->
+<section class="relative bg-cover bg-center py-16 h-96 flex items-center"
+  style="background-image: url('assets/hero.jpg');">
   <!-- Overlay now stays within the section -->
   <div class="absolute inset-0 bg-black/40"></div>
 
@@ -28,23 +26,19 @@
 <section class="max-w-7xl mx-auto px-6 py-12">
   <h2 class="text-2xl font-bold mb-6">Shop by Category</h2>
   <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center"
-      (click)="goToCategory('Shoes')">
+    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center cursor-pointer" (click)="goToCategory('Shoes')">
       <img src="/assets/categories/shoes.png" alt="Shoes" class="mx-auto h-32 mb-4" />
       <h3 class="font-semibold">Shoes</h3>
     </div>
-    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center"
-      (click)="goToCategory('Clothing')">
+    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center cursor-pointer" (click)="goToCategory('Clothing')">
       <img src="/assets/categories/clothing.png" alt="Clothing" class="mx-auto h-32 mb-4" />
       <h3 class="font-semibold">Clothing</h3>
     </div>
-    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center"
-      (click)="goToCategory('Electronics')">
+    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center cursor-pointer" (click)="goToCategory('Electronics')">
       <img src="/assets/categories/electronics.png" alt="Electronics" class="mx-auto h-32 mb-4" />
       <h3 class="font-semibold">Electronics</h3>
     </div>
-    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center"
-      (click)="goToCategory('Accessories')">
+    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center cursor-pointer" (click)="goToCategory('Accessories')">
       <img src="/assets/categories/accessories.png" alt="Accessories" class="mx-auto h-32 mb-4" />
       <h3 class="font-semibold">Accessories</h3>
     </div>
@@ -65,9 +59,17 @@
         View Details
       </a>
 
-      <button (click)="addToCart(product)" class="mt-4 w-full px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition">
+      <button (click)="addToCart(product)"
+        class="mt-4 w-full px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition">
         Add to Cart
       </button>
     </div>
   </div>
+  <div class="mt-6 text-center">
+    <a routerLink="/products"
+      class="inline-block px-8 py-4 bg-indigo-600 text-white text-2xl font-semibold rounded-lg shadow-lg hover:bg-indigo-700 hover:scale-105 transition transform">
+      See All Products
+    </a>
+  </div>
+
 </section>
