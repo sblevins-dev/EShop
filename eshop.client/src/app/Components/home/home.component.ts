@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
 
   addToCart(product: Product) {
     this.cartService.addToCart(product);
-    alert(`${product.name} has been added to the cart.`);
+    alert(`${product.title} has been added to the cart.`);
   }
 
   goToCategory(category: string) {
