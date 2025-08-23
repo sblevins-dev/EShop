@@ -33,7 +33,7 @@
       "barcode": "1234567890001",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": true,
+    "isFeatured": false,
     "images": [
       "https://picsum.photos/seed/shoes1/400/300"
     ],
@@ -73,7 +73,7 @@
       "barcode": "1234567890002",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": true,
+    "isFeatured": false,
     "images": [
       "https://picsum.photos/seed/shoes2/400/300"
     ],
@@ -231,7 +231,7 @@
       "barcode": "1234567890006",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": true,
+    "isFeatured": false,
     "images": [
       "https://picsum.photos/seed/shoes6/400/300"
     ],
@@ -310,7 +310,7 @@
       "barcode": "1234567890008",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": true,
+    "isFeatured": false,
     "images": [
       "https://picsum.photos/seed/shoes8/400/300"
     ],
@@ -350,7 +350,7 @@
       "barcode": "1234567890009",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": true,
+    "isFeatured": false,
     "images": [
       "https://picsum.photos/seed/phone1/400/300"
     ],
@@ -584,7 +584,7 @@
       "barcode": "1234567890015",
       "qrCode": "/images/products/console1.jpg"
     },
-    "isFeatured": true,
+    "isFeatured": false,
     "images": [
       "https://picsum.photos/seed/console1/400/300"
     ],
@@ -663,7 +663,7 @@
       "barcode": "1234567890017",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": true,
+    "isFeatured": false,
     "images": [
       "https://picsum.photos/seed/sofa1/400/300"
     ],
@@ -703,7 +703,7 @@
       "barcode": "1234567890018",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": true,
+    "isFeatured": false,
     "images": [
       "https://picsum.photos/seed/table1/400/300"
     ],
@@ -781,7 +781,7 @@
       "barcode": "1234567890020",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": true,
+    "isFeatured": false,
     "images": [
       "https://picsum.photos/seed/bed1/400/300"
     ],
@@ -820,7 +820,7 @@
       "barcode": "1234567890021",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": true,
+    "isFeatured": false,
     "images": [
       "https://picsum.photos/seed/recliner1/400/300"
     ],
@@ -898,7 +898,7 @@
       "barcode": "1234567890023",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": true,
+    "isFeatured": false,
     "images": [
       "https://picsum.photos/seed/wallet1/400/300"
     ],

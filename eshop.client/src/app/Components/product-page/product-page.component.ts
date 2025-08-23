@@ -19,6 +19,8 @@ export class ProductPageComponent {
   categories: string[] = [];
   selectedCategory: string = 'All';
   filteredProducts: Product[] = [];
+  toastMessage: string = '';
+  showToast: boolean = false;
 
   ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id');
@@ -33,6 +35,7 @@ export class ProductPageComponent {
       this.productService.getProducts().subscribe((data) => {
         this.products = data;
         this.categories = Array.from(new Set(data.map(p => p.category)));
+        this.categories.unshift('All'); // Add 'All' option at the beginning
         this.route.queryParams.subscribe(params => {
           const category = params['category'] || 'All';
           this.selectedCategory = category;
@@ -57,6 +60,10 @@ export class ProductPageComponent {
 
   addToCart(product: Product) {
     this.cartService.addToCart(product);
+    this.showToast = true;
+    this.toastMessage = `${product.title} has been added to your cart.`;
+
+    setTimeout(() => this.showToast = false, 3000); // hide after 3s
   }
 
   filterByCategory(category: string) {

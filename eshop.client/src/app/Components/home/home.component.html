@@ -26,19 +26,23 @@
 <section class="max-w-7xl mx-auto px-6 py-12">
   <h2 class="text-2xl font-bold mb-6">Shop by Category</h2>
   <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center cursor-pointer" (click)="goToCategory('shoes')">
+    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center cursor-pointer"
+      (click)="goToCategory('shoes')">
       <img src="/assets/categories/shoes.png" alt="Shoes" class="mx-auto h-32 mb-4" />
       <h3 class="font-semibold">Shoes</h3>
     </div>
-    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center cursor-pointer" (click)="goToCategory('furniture')">
+    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center cursor-pointer"
+      (click)="goToCategory('furniture')">
       <img src="/assets/categories/furniture.png" alt="Furniture" class="mx-auto h-32 mb-4" />
       <h3 class="font-semibold">Furniture</h3>
     </div>
-    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center cursor-pointer" (click)="goToCategory('electronics')">
+    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center cursor-pointer"
+      (click)="goToCategory('electronics')">
       <img src="/assets/categories/electronics.png" alt="Electronics" class="mx-auto h-32 mb-4" />
       <h3 class="font-semibold">Electronics</h3>
     </div>
-    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center cursor-pointer" (click)="goToCategory('accessories')">
+    <div class="bg-white rounded-lg shadow hover:shadow-lg p-6 text-center cursor-pointer"
+      (click)="goToCategory('accessories')">
       <img src="/assets/categories/accessories.png" alt="Accessories" class="mx-auto h-32 mb-4" />
       <h3 class="font-semibold">Accessories</h3>
     </div>
@@ -51,10 +55,11 @@
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
     <div *ngFor="let product of featuredProducts"
       class="p-4 flex flex-col justify-between border rounded-lg shadow hover:shadow-lg bg-white">
-      <h3 class="font-semibold text-lg">{{ product.title }}</h3>
-      <div class="max-h-48 min-h-60 flex items-center">
-        <img [src]="product.thumbnail" [alt]="product.title" class="w-full object-cover overflow-hidden rounded-lg mb-4">
+      <div class="max-h-48 min-h-60 flex items-center overflow-hidden">
+        <img [src]="product.thumbnail" [alt]="product.title"
+          class="w-full object-contain overflow-hidden rounded-lg mb-4">
       </div>
+      <h3 class="font-semibold text-lg">{{ product.title }}</h3>
       <p class="text-gray-600">{{ product.description }}</p>
       <p class="font-bold mt-2">${{ product.price }}</p>
       <a [routerLink]="['/products', product.id]" class="text-indigo-600 hover:underline">
@@ -73,5 +78,8 @@
       See All Products
     </a>
   </div>
-
+  <div *ngIf="showToast"
+    class="fixed bottom-5 right-5 bg-green-500 text-white px-4 py-2 rounded shadow-lg animate-slide-in">
+    {{ toastMessage }}
+  </div>
 </section>

@@ -13,6 +13,8 @@ export class HomeComponent implements OnInit {
   productService: ProductService = inject(ProductService);
   cartService: CartService = inject(CartService);
   router: Router = inject(Router);
+  showToast = false;
+  toastMessage = '';
 
   ngOnInit(): void {
     this.productService.getFeaturedProducts().subscribe(products => {
@@ -25,6 +27,10 @@ export class HomeComponent implements OnInit {
 
   addToCart(product: Product) {
     this.cartService.addToCart(product);
+    this.showToast = true;
+    this.toastMessage = `${product.title} has been added to your cart.`;
+
+    setTimeout(() => this.showToast = false, 3000); // hide after 3s
   }
 
   goToCategory(category: string) {
