@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { environment } from '../../environments/environment';
 
 export interface Product {
   id: number;
@@ -52,19 +53,23 @@ export interface Meta {
   providedIn: 'root'
 })
 export class ProductService {
-  private apiUrl = 'https://localhost:7217/api';
+  private apiUrl = environment.apiUrl;
 
   constructor(private http: HttpClient) { }
 
   getProducts() {
-    return this.http.get<Product[]>(`${this.apiUrl}/products`);
+    return this.http.get<Product[]>(`${this.apiUrl}/api/products`);
   }
 
   getProductById(id: number) {
-    return this.http.get<Product>(`${this.apiUrl}/products/${id}`);
+    return this.http.get<Product>(`${this.apiUrl}/api/products/${id}`);
   }
 
   getFeaturedProducts() {
-    return this.http.get<Product[]>(`${this.apiUrl}/products/featured`);
+    return this.http.get<Product[]>(`${this.apiUrl}/api/products/featured`);
+  }
+
+  getFullImageUrl(imagePath: string): string {
+    return `${environment.apiUrl}${imagePath}`;
   }
 }

@@ -30,350 +30,355 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "1234567890123",
+      "barcode": "1234567890001",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
     "isFeatured": true,
     "images": [
       "https://picsum.photos/seed/shoes1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/shoes1thumb/200/200"
+    "thumbnail": "/images/products/shoe1.jpg"
   },
   {
     "id": 2,
-    "title": "Smartphone X100",
-    "description": "High-performance smartphone with OLED display and 5G support.",
-    "category": "electronics",
-    "price": 699.99,
-    "discountPercentage": 8.0,
+    "title": "Basketball High-Tops",
+    "description": "Durable high-top shoes for basketball players.",
+    "category": "shoes",
+    "price": 129.99,
+    "discountPercentage": 10.0,
+    "rating": 4.7,
+    "stock": 80,
+    "tags": [
+      "shoes",
+      "basketball",
+      "sports"
+    ],
+    "brand": "HoopPro",
+    "sku": "SHO-BSK-002",
+    "weight": 2.5,
+    "dimensions": {
+      "width": 32,
+      "height": 15,
+      "depth": 22
+    },
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [],
+    "returnPolicy": "30-day return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-08-22T09:00:00Z",
+      "updatedAt": "2025-08-22T09:00:00Z",
+      "barcode": "1234567890002",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "isFeatured": true,
+    "images": [
+      "https://picsum.photos/seed/shoes2/400/300"
+    ],
+    "thumbnail": "/images/products/shoe2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Casual Loafers",
+    "description": "Comfortable loafers suitable for casual wear.",
+    "category": "shoes",
+    "price": 59.99,
+    "discountPercentage": 7.0,
+    "rating": 4.3,
+    "stock": 150,
+    "tags": [
+      "shoes",
+      "casual"
+    ],
+    "brand": "UrbanWalk",
+    "sku": "SHO-LOA-003",
+    "weight": 1.8,
+    "dimensions": {
+      "width": 29,
+      "height": 11,
+      "depth": 19
+    },
+    "warrantyInformation": "6 months warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [],
+    "returnPolicy": "30-day return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-08-22T09:00:00Z",
+      "updatedAt": "2025-08-22T09:00:00Z",
+      "barcode": "1234567890003",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "isFeatured": false,
+    "images": [
+      "https://picsum.photos/seed/shoes3/400/300"
+    ],
+    "thumbnail": "/images/products/shoe8.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Trail Hiking Boots",
+    "description": "Waterproof hiking boots with rugged soles.",
+    "category": "shoes",
+    "price": 149.99,
+    "discountPercentage": 12.0,
     "rating": 4.8,
+    "stock": 60,
+    "tags": [
+      "shoes",
+      "hiking",
+      "outdoor"
+    ],
+    "brand": "TrailMaster",
+    "sku": "SHO-HIK-004",
+    "weight": 3.2,
+    "dimensions": {
+      "width": 34,
+      "height": 16,
+      "depth": 23
+    },
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 5-7 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [],
+    "returnPolicy": "30-day return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-08-22T09:00:00Z",
+      "updatedAt": "2025-08-22T09:00:00Z",
+      "barcode": "1234567890004",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "isFeatured": true,
+    "images": [
+      "https://picsum.photos/seed/shoes4/400/300"
+    ],
+    "thumbnail": "/images/products/shoe3.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Slip-On Sandals",
+    "description": "Lightweight slip-on sandals for everyday use.",
+    "category": "shoes",
+    "price": 29.99,
+    "discountPercentage": 5.0,
+    "rating": 4.1,
+    "stock": 200,
+    "tags": [
+      "shoes",
+      "sandals",
+      "casual"
+    ],
+    "brand": "BreezeStep",
+    "sku": "SHO-SAN-005",
+    "weight": 1.0,
+    "dimensions": {
+      "width": 28,
+      "height": 8,
+      "depth": 18
+    },
+    "warrantyInformation": "3 months warranty",
+    "shippingInformation": "Ships in 2-4 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [],
+    "returnPolicy": "15-day return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-08-22T09:00:00Z",
+      "updatedAt": "2025-08-22T09:00:00Z",
+      "barcode": "1234567890005",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "isFeatured": false,
+    "images": [
+      "https://picsum.photos/seed/shoes5/400/300"
+    ],
+    "thumbnail": "/images/products/shoe6.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Leather Dress Shoes",
+    "description": "Elegant leather dress shoes for formal occasions.",
+    "category": "shoes",
+    "price": 99.99,
+    "discountPercentage": 8.0,
+    "rating": 4.6,
+    "stock": 90,
+    "tags": [
+      "shoes",
+      "formal"
+    ],
+    "brand": "Eleganza",
+    "sku": "SHO-DRS-006",
+    "weight": 2.2,
+    "dimensions": {
+      "width": 30,
+      "height": 12,
+      "depth": 20
+    },
+    "warrantyInformation": "1 year warranty",
+    "shippingInformation": "Ships in 4-6 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [],
+    "returnPolicy": "30-day return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-08-22T09:00:00Z",
+      "updatedAt": "2025-08-22T09:00:00Z",
+      "barcode": "1234567890006",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "isFeatured": true,
+    "images": [
+      "https://picsum.photos/seed/shoes6/400/300"
+    ],
+    "thumbnail": "/images/products/shoe4.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Skate Shoes",
+    "description": "Durable skateboarding shoes with reinforced soles.",
+    "category": "shoes",
+    "price": 89.99,
+    "discountPercentage": 6.0,
+    "rating": 4.4,
+    "stock": 110,
+    "tags": [
+      "shoes",
+      "skate",
+      "casual"
+    ],
+    "brand": "BoardGrind",
+    "sku": "SHO-SKT-007",
+    "weight": 2.4,
+    "dimensions": {
+      "width": 31,
+      "height": 13,
+      "depth": 21
+    },
+    "warrantyInformation": "6 months warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [],
+    "returnPolicy": "30-day return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-08-22T09:00:00Z",
+      "updatedAt": "2025-08-22T09:00:00Z",
+      "barcode": "1234567890007",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "isFeatured": false,
+    "images": [
+      "https://picsum.photos/seed/shoes7/400/300"
+    ],
+    "thumbnail": "/images/products/shoe7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Running Trainers",
+    "description": "Breathable running trainers for long-distance runs.",
+    "category": "shoes",
+    "price": 109.99,
+    "discountPercentage": 9.0,
+    "rating": 4.5,
+    "stock": 130,
+    "tags": [
+      "shoes",
+      "running"
+    ],
+    "brand": "FitRun",
+    "sku": "SHO-TRN-008",
+    "weight": 2.1,
+    "dimensions": {
+      "width": 30,
+      "height": 12,
+      "depth": 20
+    },
+    "warrantyInformation": "6 months warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [],
+    "returnPolicy": "30-day return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-08-22T09:00:00Z",
+      "updatedAt": "2025-08-22T09:00:00Z",
+      "barcode": "1234567890008",
+      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+    },
+    "isFeatured": true,
+    "images": [
+      "https://picsum.photos/seed/shoes8/400/300"
+    ],
+    "thumbnail": "/images/products/shoe5.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Smartphone X12",
+    "description": "Latest generation smartphone with 5G connectivity and OLED display.",
+    "category": "electronics",
+    "price": 999.99,
+    "discountPercentage": 8.0,
+    "rating": 4.7,
     "stock": 50,
     "tags": [
+      "smartphone",
       "electronics",
-      "smartphone"
+      "5G"
     ],
-    "brand": "TechPro",
-    "sku": "ELE-SMT-100",
-    "weight": 1,
+    "brand": "TechNova",
+    "sku": "ELE-PHN-009",
+    "weight": 0.5,
     "dimensions": {
-      "width": 8,
+      "width": 7,
       "height": 15,
-      "depth": 1
+      "depth": 0.8
     },
     "warrantyInformation": "1 year warranty",
     "shippingInformation": "Ships in 2-4 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
-    "returnPolicy": "14-day return policy",
+    "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "9876543210987",
+      "barcode": "1234567890009",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
     "isFeatured": true,
     "images": [
-      "https://picsum.photos/seed/electronics1/400/300"
+      "https://picsum.photos/seed/phone1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/electronics1thumb/200/200"
-  },
-  {
-    "id": 3,
-    "title": "Sample Furniture Product 3",
-    "description": "A high-quality furniture product, model 3.",
-    "category": "furniture",
-    "price": 30.5,
-    "discountPercentage": 5,
-    "rating": 3.0,
-    "stock": 56,
-    "tags": [
-      "furniture",
-      "new"
-    ],
-    "brand": "Brand3",
-    "sku": "FUR-003",
-    "weight": 5,
-    "dimensions": {
-      "width": 13,
-      "height": 8,
-      "depth": 18
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [],
-    "returnPolicy": "30-day return policy",
-    "minimumOrderQuantity": 1,
-    "meta": {
-      "createdAt": "2025-08-22T09:00:00Z",
-      "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000003",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
-    "isFeatured": true,
-    "images": [
-      "https://picsum.photos/seed/furniture3/400/300"
-    ],
-    "thumbnail": "https://picsum.photos/seed/furniture3thumb/200/200"
-  },
-  {
-    "id": 4,
-    "title": "Sample Accessories Product 4",
-    "description": "A high-quality accessories product, model 4.",
-    "category": "accessories",
-    "price": 34.0,
-    "discountPercentage": 6,
-    "rating": 3.5,
-    "stock": 58,
-    "tags": [
-      "accessories",
-      "new"
-    ],
-    "brand": "Brand4",
-    "sku": "ACC-004",
-    "weight": 6,
-    "dimensions": {
-      "width": 14,
-      "height": 9,
-      "depth": 19
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [],
-    "returnPolicy": "30-day return policy",
-    "minimumOrderQuantity": 1,
-    "meta": {
-      "createdAt": "2025-08-22T09:00:00Z",
-      "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000004",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
-    "isFeatured": true,
-    "images": [
-      "https://picsum.photos/seed/accessories4/400/300"
-    ],
-    "thumbnail": "https://picsum.photos/seed/accessories4thumb/200/200"
-  },
-  {
-    "id": 5,
-    "title": "Sample Shoes Product 5",
-    "description": "A high-quality shoes product, model 5.",
-    "category": "shoes",
-    "price": 37.5,
-    "discountPercentage": 7,
-    "rating": 4.0,
-    "stock": 60,
-    "tags": [
-      "shoes",
-      "new"
-    ],
-    "brand": "Brand5",
-    "sku": "SHO-005",
-    "weight": 2,
-    "dimensions": {
-      "width": 15,
-      "height": 10,
-      "depth": 20
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [],
-    "returnPolicy": "30-day return policy",
-    "minimumOrderQuantity": 1,
-    "meta": {
-      "createdAt": "2025-08-22T09:00:00Z",
-      "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000005",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
-    "isFeatured": true,
-    "images": [
-      "https://picsum.photos/seed/shoes5/400/300"
-    ],
-    "thumbnail": "https://picsum.photos/seed/shoes5thumb/200/200"
-  },
-  {
-    "id": 6,
-    "title": "Sample Electronics Product 6",
-    "description": "A high-quality electronics product, model 6.",
-    "category": "electronics",
-    "price": 41.0,
-    "discountPercentage": 8,
-    "rating": 3.0,
-    "stock": 62,
-    "tags": [
-      "electronics",
-      "new"
-    ],
-    "brand": "Brand6",
-    "sku": "ELE-006",
-    "weight": 3,
-    "dimensions": {
-      "width": 16,
-      "height": 11,
-      "depth": 21
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [],
-    "returnPolicy": "30-day return policy",
-    "minimumOrderQuantity": 1,
-    "meta": {
-      "createdAt": "2025-08-22T09:00:00Z",
-      "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000006",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
-    "isFeatured": true,
-    "images": [
-      "https://picsum.photos/seed/electronics6/400/300"
-    ],
-    "thumbnail": "https://picsum.photos/seed/electronics6thumb/200/200"
-  },
-  {
-    "id": 7,
-    "title": "Sample Furniture Product 7",
-    "description": "A high-quality furniture product, model 7.",
-    "category": "furniture",
-    "price": 44.5,
-    "discountPercentage": 9,
-    "rating": 3.5,
-    "stock": 64,
-    "tags": [
-      "furniture",
-      "new"
-    ],
-    "brand": "Brand7",
-    "sku": "FUR-007",
-    "weight": 4,
-    "dimensions": {
-      "width": 17,
-      "height": 12,
-      "depth": 15
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [],
-    "returnPolicy": "30-day return policy",
-    "minimumOrderQuantity": 1,
-    "meta": {
-      "createdAt": "2025-08-22T09:00:00Z",
-      "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000007",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
-    "isFeatured": true,
-    "images": [
-      "https://picsum.photos/seed/furniture7/400/300"
-    ],
-    "thumbnail": "https://picsum.photos/seed/furniture7thumb/200/200"
-  },
-  {
-    "id": 8,
-    "title": "Sample Accessories Product 8",
-    "description": "A high-quality accessories product, model 8.",
-    "category": "accessories",
-    "price": 48.0,
-    "discountPercentage": 10,
-    "rating": 4.0,
-    "stock": 66,
-    "tags": [
-      "accessories",
-      "new"
-    ],
-    "brand": "Brand8",
-    "sku": "ACC-008",
-    "weight": 5,
-    "dimensions": {
-      "width": 18,
-      "height": 13,
-      "depth": 16
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [],
-    "returnPolicy": "30-day return policy",
-    "minimumOrderQuantity": 1,
-    "meta": {
-      "createdAt": "2025-08-22T09:00:00Z",
-      "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000008",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
-    "isFeatured": true,
-    "images": [
-      "https://picsum.photos/seed/accessories8/400/300"
-    ],
-    "thumbnail": "https://picsum.photos/seed/accessories8thumb/200/200"
-  },
-  {
-    "id": 9,
-    "title": "Sample Shoes Product 9",
-    "description": "A high-quality shoes product, model 9.",
-    "category": "shoes",
-    "price": 51.5,
-    "discountPercentage": 11,
-    "rating": 3.0,
-    "stock": 68,
-    "tags": [
-      "shoes",
-      "new"
-    ],
-    "brand": "Brand9",
-    "sku": "SHO-009",
-    "weight": 6,
-    "dimensions": {
-      "width": 19,
-      "height": 14,
-      "depth": 17
-    },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
-    "availabilityStatus": "In Stock",
-    "reviews": [],
-    "returnPolicy": "30-day return policy",
-    "minimumOrderQuantity": 1,
-    "meta": {
-      "createdAt": "2025-08-22T09:00:00Z",
-      "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000009",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-    },
-    "isFeatured": false,
-    "images": [
-      "https://picsum.photos/seed/shoes9/400/300"
-    ],
-    "thumbnail": "https://picsum.photos/seed/shoes9thumb/200/200"
+    "thumbnail": "/images/products/phone1.jpg"
   },
   {
     "id": 10,
-    "title": "Sample Electronics Product 10",
-    "description": "A high-quality electronics product, model 10.",
+    "title": "Laptop Pro 15",
+    "description": "High-performance laptop with 16GB RAM and 1TB SSD.",
     "category": "electronics",
-    "price": 55.0,
-    "discountPercentage": 2,
-    "rating": 3.5,
-    "stock": 70,
+    "price": 1499.99,
+    "discountPercentage": 12.0,
+    "rating": 4.8,
+    "stock": 40,
     "tags": [
-      "electronics",
-      "new"
+      "laptop",
+      "computer"
     ],
-    "brand": "Brand10",
-    "sku": "ELE-010",
-    "weight": 2,
+    "brand": "ComputeX",
+    "sku": "ELE-LAP-010",
+    "weight": 2.5,
     "dimensions": {
-      "width": 20,
-      "height": 5,
-      "depth": 18
+      "width": 35,
+      "height": 2,
+      "depth": 24
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "warrantyInformation": "2 years warranty",
+    "shippingInformation": "Ships in 3-5 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
     "returnPolicy": "30-day return policy",
@@ -381,155 +386,155 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000010",
+      "barcode": "1234567890010",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": false,
+    "isFeatured": true,
     "images": [
-      "https://picsum.photos/seed/electronics10/400/300"
+      "https://picsum.photos/seed/laptop1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/electronics10thumb/200/200"
+    "thumbnail": "/images/products/laptop1.png"
   },
   {
     "id": 11,
-    "title": "Sample Furniture Product 11",
-    "description": "A high-quality furniture product, model 11.",
-    "category": "furniture",
-    "price": 58.5,
-    "discountPercentage": 3,
-    "rating": 4.0,
-    "stock": 72,
+    "title": "Wireless Earbuds",
+    "description": "Noise-cancelling wireless earbuds with 24h battery life.",
+    "category": "electronics",
+    "price": 149.99,
+    "discountPercentage": 10.0,
+    "rating": 4.6,
+    "stock": 100,
     "tags": [
-      "furniture",
-      "new"
+      "earbuds",
+      "audio"
     ],
-    "brand": "Brand11",
-    "sku": "FUR-011",
-    "weight": 3,
+    "brand": "SoundMax",
+    "sku": "ELE-EB-011",
+    "weight": 0.2,
     "dimensions": {
-      "width": 21,
-      "height": 6,
-      "depth": 19
+      "width": 6,
+      "height": 4,
+      "depth": 3
     },
     "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "shippingInformation": "Ships in 2-3 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
-    "returnPolicy": "30-day return policy",
+    "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000011",
+      "barcode": "1234567890011",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": false,
+    "isFeatured": true,
     "images": [
-      "https://picsum.photos/seed/furniture11/400/300"
+      "https://picsum.photos/seed/earbuds1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/furniture11thumb/200/200"
+    "thumbnail": "/images/products/earbuds1.png"
   },
   {
     "id": 12,
-    "title": "Sample Accessories Product 12",
-    "description": "A high-quality accessories product, model 12.",
-    "category": "accessories",
-    "price": 62.0,
-    "discountPercentage": 4,
-    "rating": 3.0,
-    "stock": 74,
+    "title": "Smartwatch S5",
+    "description": "Fitness-focused smartwatch with heart rate and GPS tracking.",
+    "category": "electronics",
+    "price": 299.99,
+    "discountPercentage": 7.0,
+    "rating": 4.5,
+    "stock": 75,
     "tags": [
-      "accessories",
-      "new"
+      "smartwatch",
+      "wearable"
     ],
-    "brand": "Brand12",
-    "sku": "ACC-012",
-    "weight": 4,
+    "brand": "TimeTech",
+    "sku": "ELE-SMW-012",
+    "weight": 0.3,
     "dimensions": {
-      "width": 22,
-      "height": 7,
-      "depth": 20
+      "width": 4,
+      "height": 1,
+      "depth": 4
     },
     "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "shippingInformation": "Ships in 2-4 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
-    "returnPolicy": "30-day return policy",
+    "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000012",
+      "barcode": "1234567890012",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
     "isFeatured": false,
     "images": [
-      "https://picsum.photos/seed/accessories12/400/300"
+      "https://picsum.photos/seed/watch1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/accessories12thumb/200/200"
+    "thumbnail": "/images/products/watch2.jpg"
   },
   {
     "id": 13,
-    "title": "Sample Shoes Product 13",
-    "description": "A high-quality shoes product, model 13.",
-    "category": "shoes",
-    "price": 65.5,
-    "discountPercentage": 5,
-    "rating": 3.5,
-    "stock": 76,
+    "title": "Bluetooth Speaker",
+    "description": "Portable waterproof Bluetooth speaker with deep bass.",
+    "category": "electronics",
+    "price": 99.99,
+    "discountPercentage": 15.0,
+    "rating": 4.4,
+    "stock": 120,
     "tags": [
-      "shoes",
-      "new"
+      "speaker",
+      "audio"
     ],
-    "brand": "Brand13",
-    "sku": "SHO-013",
-    "weight": 5,
+    "brand": "BassBoom",
+    "sku": "ELE-SPK-013",
+    "weight": 1.2,
     "dimensions": {
-      "width": 23,
-      "height": 8,
-      "depth": 21
+      "width": 20,
+      "height": 10,
+      "depth": 10
     },
     "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "shippingInformation": "Ships in 2-3 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
-    "returnPolicy": "30-day return policy",
+    "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000013",
+      "barcode": "1234567890013",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
     "isFeatured": false,
     "images": [
-      "https://picsum.photos/seed/shoes13/400/300"
+      "https://picsum.photos/seed/speaker1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/shoes13thumb/200/200"
+    "thumbnail": "/images/products/speaker.jpg"
   },
   {
     "id": 14,
-    "title": "Sample Electronics Product 14",
-    "description": "A high-quality electronics product, model 14.",
+    "title": "DSLR Camera",
+    "description": "Professional DSLR camera with 24MP sensor and 4K video.",
     "category": "electronics",
-    "price": 69.0,
-    "discountPercentage": 6,
-    "rating": 4.0,
-    "stock": 78,
+    "price": 899.99,
+    "discountPercentage": 9.0,
+    "rating": 4.6,
+    "stock": 35,
     "tags": [
-      "electronics",
-      "new"
+      "camera",
+      "photography"
     ],
-    "brand": "Brand14",
-    "sku": "ELE-014",
-    "weight": 6,
+    "brand": "PhotoPro",
+    "sku": "ELE-CAM-014",
+    "weight": 1.8,
     "dimensions": {
-      "width": 24,
-      "height": 9,
-      "depth": 15
+      "width": 14,
+      "height": 10,
+      "depth": 8
     },
     "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "shippingInformation": "Ships in 5-7 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
     "returnPolicy": "30-day return policy",
@@ -537,77 +542,78 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000014",
+      "barcode": "1234567890014",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": false,
+    "isFeatured": true,
     "images": [
-      "https://picsum.photos/seed/electronics14/400/300"
+      "https://picsum.photos/seed/camera1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/electronics14thumb/200/200"
+    "thumbnail": "/images/products/camera1.jpg"
   },
   {
     "id": 15,
-    "title": "Sample Furniture Product 15",
-    "description": "A high-quality furniture product, model 15.",
-    "category": "furniture",
-    "price": 72.5,
-    "discountPercentage": 7,
-    "rating": 3.0,
-    "stock": 80,
+    "title": "Gaming Console Z",
+    "description": "Next-gen gaming console with 8K support and VR readiness.",
+    "category": "electronics",
+    "price": 599.99,
+    "discountPercentage": 5.0,
+    "rating": 4.7,
+    "stock": 60,
     "tags": [
-      "furniture",
-      "new"
+      "gaming",
+      "console"
     ],
-    "brand": "Brand15",
-    "sku": "FUR-015",
-    "weight": 2,
+    "brand": "PlayBox",
+    "sku": "ELE-CON-015",
+    "weight": 4.0,
     "dimensions": {
-      "width": 25,
-      "height": 10,
-      "depth": 16
+      "width": 40,
+      "height": 12,
+      "depth": 28
     },
     "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "shippingInformation": "Ships in 2-4 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
-    "returnPolicy": "30-day return policy",
+    "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000015",
-      "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      "barcode": "1234567890015",
+      "qrCode": "/images/products/console1.jpg"
     },
-    "isFeatured": false,
+    "isFeatured": true,
     "images": [
-      "https://picsum.photos/seed/furniture15/400/300"
+      "https://picsum.photos/seed/console1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/furniture15thumb/200/200"
+    "thumbnail": "/images/products/console1.jpg"
   },
   {
     "id": 16,
-    "title": "Sample Accessories Product 16",
-    "description": "A high-quality accessories product, model 16.",
-    "category": "accessories",
-    "price": 76.0,
-    "discountPercentage": 8,
-    "rating": 3.5,
-    "stock": 82,
+    "title": "Ergonomic Office Chair",
+    "description": "Mesh back ergonomic office chair with lumbar support.",
+    "category": "furniture",
+    "price": 199.99,
+    "discountPercentage": 10.0,
+    "rating": 4.4,
+    "stock": 75,
     "tags": [
-      "accessories",
-      "new"
+      "chair",
+      "office",
+      "furniture"
     ],
-    "brand": "Brand16",
-    "sku": "ACC-016",
-    "weight": 3,
+    "brand": "WorkWell",
+    "sku": "FUR-CHR-016",
+    "weight": 12,
     "dimensions": {
-      "width": 26,
-      "height": 11,
-      "depth": 17
+      "width": 60,
+      "height": 110,
+      "depth": 60
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "warrantyInformation": "2 years warranty",
+    "shippingInformation": "Ships in 5-7 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
     "returnPolicy": "30-day return policy",
@@ -615,38 +621,38 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000016",
+      "barcode": "1234567890016",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
     "isFeatured": false,
     "images": [
-      "https://picsum.photos/seed/accessories16/400/300"
+      "https://picsum.photos/seed/chair1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/accessories16thumb/200/200"
+    "thumbnail": "/images/products/chair2.jpg"
   },
   {
     "id": 17,
-    "title": "Sample Shoes Product 17",
-    "description": "A high-quality shoes product, model 17.",
-    "category": "shoes",
-    "price": 79.5,
-    "discountPercentage": 9,
-    "rating": 4.0,
-    "stock": 84,
+    "title": "Modern Sofa",
+    "description": "3-seater modern fabric sofa with wooden legs.",
+    "category": "furniture",
+    "price": 799.99,
+    "discountPercentage": 15.0,
+    "rating": 4.6,
+    "stock": 20,
     "tags": [
-      "shoes",
-      "new"
+      "sofa",
+      "living room"
     ],
-    "brand": "Brand17",
-    "sku": "SHO-017",
-    "weight": 4,
+    "brand": "HomeStyle",
+    "sku": "FUR-SFA-017",
+    "weight": 45,
     "dimensions": {
-      "width": 27,
-      "height": 12,
-      "depth": 18
+      "width": 200,
+      "height": 85,
+      "depth": 90
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "warrantyInformation": "3 years warranty",
+    "shippingInformation": "Ships in 7-10 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
     "returnPolicy": "30-day return policy",
@@ -654,77 +660,78 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000017",
+      "barcode": "1234567890017",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": false,
+    "isFeatured": true,
     "images": [
-      "https://picsum.photos/seed/shoes17/400/300"
+      "https://picsum.photos/seed/sofa1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/shoes17thumb/200/200"
+    "thumbnail": "/images/products/sofa1.jpg"
   },
   {
     "id": 18,
-    "title": "Sample Electronics Product 18",
-    "description": "A high-quality electronics product, model 18.",
-    "category": "electronics",
-    "price": 83.0,
-    "discountPercentage": 10,
-    "rating": 3.0,
-    "stock": 86,
+    "title": "Dining Table Set",
+    "description": "Wooden dining table with 6 matching chairs.",
+    "category": "furniture",
+    "price": 999.99,
+    "discountPercentage": 18.0,
+    "rating": 4.5,
+    "stock": 15,
     "tags": [
-      "electronics",
-      "new"
+      "dining",
+      "table",
+      "set"
     ],
-    "brand": "Brand18",
-    "sku": "ELE-018",
-    "weight": 5,
+    "brand": "OakCraft",
+    "sku": "FUR-DNT-018",
+    "weight": 80,
     "dimensions": {
-      "width": 28,
-      "height": 13,
-      "depth": 19
+      "width": 180,
+      "height": 75,
+      "depth": 90
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "warrantyInformation": "5 years warranty",
+    "shippingInformation": "Ships in 10-15 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
-    "returnPolicy": "30-day return policy",
+    "returnPolicy": "No return policy",
     "minimumOrderQuantity": 1,
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000018",
+      "barcode": "1234567890018",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": false,
+    "isFeatured": true,
     "images": [
-      "https://picsum.photos/seed/electronics18/400/300"
+      "https://picsum.photos/seed/table1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/electronics18thumb/200/200"
+    "thumbnail": "/images/products/table2.jpg"
   },
   {
     "id": 19,
-    "title": "Sample Furniture Product 19",
-    "description": "A high-quality furniture product, model 19.",
+    "title": "Bookshelf",
+    "description": "Tall wooden bookshelf with 5 shelves.",
     "category": "furniture",
-    "price": 86.5,
-    "discountPercentage": 11,
-    "rating": 3.5,
-    "stock": 88,
+    "price": 249.99,
+    "discountPercentage": 12.0,
+    "rating": 4.3,
+    "stock": 40,
     "tags": [
-      "furniture",
-      "new"
+      "bookshelf",
+      "storage"
     ],
-    "brand": "Brand19",
-    "sku": "FUR-019",
-    "weight": 6,
+    "brand": "WoodLine",
+    "sku": "FUR-BKS-019",
+    "weight": 25,
     "dimensions": {
-      "width": 29,
-      "height": 14,
-      "depth": 20
+      "width": 90,
+      "height": 180,
+      "depth": 35
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "warrantyInformation": "2 years warranty",
+    "shippingInformation": "Ships in 7-9 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
     "returnPolicy": "30-day return policy",
@@ -732,38 +739,38 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000019",
+      "barcode": "1234567890019",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
     "isFeatured": false,
     "images": [
-      "https://picsum.photos/seed/furniture19/400/300"
+      "https://picsum.photos/seed/bookshelf1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/furniture19thumb/200/200"
+    "thumbnail": "/images/products/bookshelf.jpg"
   },
   {
     "id": 20,
-    "title": "Sample Accessories Product 20",
-    "description": "A high-quality accessories product, model 20.",
-    "category": "accessories",
-    "price": 90.0,
-    "discountPercentage": 2,
-    "rating": 4.0,
-    "stock": 90,
+    "title": "King Bed Frame",
+    "description": "Solid oak king-size bed frame with headboard.",
+    "category": "furniture",
+    "price": 699.99,
+    "discountPercentage": 10.0,
+    "rating": 4.7,
+    "stock": 25,
     "tags": [
-      "accessories",
-      "new"
+      "bed",
+      "frame"
     ],
-    "brand": "Brand20",
-    "sku": "ACC-020",
-    "weight": 2,
+    "brand": "SleepTight",
+    "sku": "FUR-BED-020",
+    "weight": 60,
     "dimensions": {
-      "width": 30,
-      "height": 5,
-      "depth": 21
+      "width": 210,
+      "height": 120,
+      "depth": 200
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "warrantyInformation": "5 years warranty",
+    "shippingInformation": "Ships in 10-14 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
     "returnPolicy": "30-day return policy",
@@ -771,38 +778,38 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000020",
+      "barcode": "1234567890020",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": false,
+    "isFeatured": true,
     "images": [
-      "https://picsum.photos/seed/accessories20/400/300"
+      "https://picsum.photos/seed/bed1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/accessories20thumb/200/200"
+    "thumbnail": "/images/products/bed1.jpeg"
   },
   {
     "id": 21,
-    "title": "Sample Shoes Product 21",
-    "description": "A high-quality shoes product, model 21.",
-    "category": "shoes",
-    "price": 93.5,
-    "discountPercentage": 3,
-    "rating": 3.0,
-    "stock": 92,
+    "title": "Recliner Chair",
+    "description": "Comfortable leather recliner chair with footrest.",
+    "category": "furniture",
+    "price": 499.99,
+    "discountPercentage": 8.0,
+    "rating": 4.5,
+    "stock": 30,
     "tags": [
-      "shoes",
-      "new"
+      "recliner",
+      "chair"
     ],
-    "brand": "Brand21",
-    "sku": "SHO-021",
-    "weight": 3,
+    "brand": "Relaxo",
+    "sku": "FUR-RCL-021",
+    "weight": 30,
     "dimensions": {
-      "width": 31,
-      "height": 6,
-      "depth": 15
+      "width": 85,
+      "height": 110,
+      "depth": 100
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "warrantyInformation": "3 years warranty",
+    "shippingInformation": "Ships in 5-8 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
     "returnPolicy": "30-day return policy",
@@ -810,38 +817,38 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000021",
+      "barcode": "1234567890021",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": false,
+    "isFeatured": true,
     "images": [
-      "https://picsum.photos/seed/shoes21/400/300"
+      "https://picsum.photos/seed/recliner1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/shoes21thumb/200/200"
+    "thumbnail": "/images/products/chair1.jpg"
   },
   {
     "id": 22,
-    "title": "Sample Electronics Product 22",
-    "description": "A high-quality electronics product, model 22.",
-    "category": "electronics",
-    "price": 97.0,
-    "discountPercentage": 4,
-    "rating": 3.5,
-    "stock": 94,
+    "title": "Coffee Table",
+    "description": "Minimalist wooden coffee table with glass top.",
+    "category": "furniture",
+    "price": 179.99,
+    "discountPercentage": 6.0,
+    "rating": 4.2,
+    "stock": 50,
     "tags": [
-      "electronics",
-      "new"
+      "coffee",
+      "table"
     ],
-    "brand": "Brand22",
-    "sku": "ELE-022",
-    "weight": 4,
+    "brand": "ZenHome",
+    "sku": "FUR-CFT-022",
+    "weight": 15,
     "dimensions": {
-      "width": 32,
-      "height": 7,
-      "depth": 16
+      "width": 110,
+      "height": 45,
+      "depth": 60
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "warrantyInformation": "2 years warranty",
+    "shippingInformation": "Ships in 4-6 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
     "returnPolicy": "30-day return policy",
@@ -849,38 +856,38 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000022",
+      "barcode": "1234567890022",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
     "isFeatured": false,
     "images": [
-      "https://picsum.photos/seed/electronics22/400/300"
+      "https://picsum.photos/seed/coffeetable1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/electronics22thumb/200/200"
+    "thumbnail": "/images/products/table1.png"
   },
   {
     "id": 23,
-    "title": "Sample Furniture Product 23",
-    "description": "A high-quality furniture product, model 23.",
-    "category": "furniture",
-    "price": 100.5,
-    "discountPercentage": 5,
-    "rating": 4.0,
-    "stock": 96,
+    "title": "Leather Wallet",
+    "description": "Genuine leather bifold wallet with RFID blocking.",
+    "category": "accessories",
+    "price": 49.99,
+    "discountPercentage": 7.0,
+    "rating": 4.6,
+    "stock": 200,
     "tags": [
-      "furniture",
-      "new"
+      "wallet",
+      "leather"
     ],
-    "brand": "Brand23",
-    "sku": "FUR-023",
-    "weight": 5,
+    "brand": "LuxCraft",
+    "sku": "ACC-WAL-023",
+    "weight": 0.3,
     "dimensions": {
-      "width": 33,
-      "height": 8,
-      "depth": 17
+      "width": 10,
+      "height": 9,
+      "depth": 2
     },
     "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "shippingInformation": "Ships in 2-3 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
     "returnPolicy": "30-day return policy",
@@ -888,77 +895,77 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000023",
+      "barcode": "1234567890023",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": false,
+    "isFeatured": true,
     "images": [
-      "https://picsum.photos/seed/furniture23/400/300"
+      "https://picsum.photos/seed/wallet1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/furniture23thumb/200/200"
+    "thumbnail": "/images/products/wallet1.jpg"
   },
   {
     "id": 24,
-    "title": "Sample Accessories Product 24",
-    "description": "A high-quality accessories product, model 24.",
+    "title": "Sunglasses UV400",
+    "description": "Polarized sunglasses with UV400 protection.",
     "category": "accessories",
-    "price": 104.0,
-    "discountPercentage": 6,
-    "rating": 3.0,
-    "stock": 98,
+    "price": 79.99,
+    "discountPercentage": 12.0,
+    "rating": 4.5,
+    "stock": 150,
     "tags": [
-      "accessories",
-      "new"
+      "sunglasses",
+      "accessory"
     ],
-    "brand": "Brand24",
-    "sku": "ACC-024",
-    "weight": 6,
+    "brand": "ShadeX",
+    "sku": "ACC-SUN-024",
+    "weight": 0.2,
     "dimensions": {
-      "width": 34,
-      "height": 9,
-      "depth": 18
+      "width": 14,
+      "height": 5,
+      "depth": 5
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "warrantyInformation": "6 months warranty",
+    "shippingInformation": "Ships in 2-4 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
-    "returnPolicy": "30-day return policy",
+    "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000024",
+      "barcode": "1234567890024",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": false,
+    "isFeatured": true,
     "images": [
-      "https://picsum.photos/seed/accessories24/400/300"
+      "https://picsum.photos/seed/sunglasses1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/accessories24thumb/200/200"
+    "thumbnail": "/images/products/glasses1.jpeg"
   },
   {
     "id": 25,
-    "title": "Sample Shoes Product 25",
-    "description": "A high-quality shoes product, model 25.",
-    "category": "shoes",
-    "price": 107.5,
-    "discountPercentage": 7,
-    "rating": 3.5,
-    "stock": 100,
+    "title": "Leather Belt",
+    "description": "Premium full-grain leather belt with metal buckle.",
+    "category": "accessories",
+    "price": 39.99,
+    "discountPercentage": 5.0,
+    "rating": 4.4,
+    "stock": 180,
     "tags": [
-      "shoes",
-      "new"
+      "belt",
+      "leather"
     ],
-    "brand": "Brand25",
-    "sku": "SHO-025",
-    "weight": 2,
+    "brand": "BeltPro",
+    "sku": "ACC-BLT-025",
+    "weight": 0.4,
     "dimensions": {
-      "width": 35,
-      "height": 10,
-      "depth": 19
+      "width": 120,
+      "height": 4,
+      "depth": 0.5
     },
     "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "shippingInformation": "Ships in 3-5 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
     "returnPolicy": "30-day return policy",
@@ -966,38 +973,38 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000025",
+      "barcode": "1234567890025",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
     "isFeatured": false,
     "images": [
-      "https://picsum.photos/seed/shoes25/400/300"
+      "https://picsum.photos/seed/belt1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/shoes25thumb/200/200"
+    "thumbnail": "/images/products/belt1.jpg"
   },
   {
     "id": 26,
-    "title": "Sample Electronics Product 26",
-    "description": "A high-quality electronics product, model 26.",
-    "category": "electronics",
-    "price": 111.0,
-    "discountPercentage": 8,
-    "rating": 4.0,
-    "stock": 102,
+    "title": "Backpack Pro",
+    "description": "Durable backpack with laptop compartment and waterproof lining.",
+    "category": "accessories",
+    "price": 129.99,
+    "discountPercentage": 10.0,
+    "rating": 4.7,
+    "stock": 90,
     "tags": [
-      "electronics",
-      "new"
+      "backpack",
+      "bag"
     ],
-    "brand": "Brand26",
-    "sku": "ELE-026",
-    "weight": 3,
+    "brand": "CarryAll",
+    "sku": "ACC-BPK-026",
+    "weight": 1.5,
     "dimensions": {
-      "width": 36,
-      "height": 11,
+      "width": 35,
+      "height": 50,
       "depth": 20
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "warrantyInformation": "2 years warranty",
+    "shippingInformation": "Ships in 4-6 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
     "returnPolicy": "30-day return policy",
@@ -1005,38 +1012,38 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000026",
+      "barcode": "1234567890026",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": false,
+    "isFeatured": true,
     "images": [
-      "https://picsum.photos/seed/electronics26/400/300"
+      "https://picsum.photos/seed/backpack1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/electronics26thumb/200/200"
+    "thumbnail": "/images/products/bag1.jpg"
   },
   {
     "id": 27,
-    "title": "Sample Furniture Product 27",
-    "description": "A high-quality furniture product, model 27.",
-    "category": "furniture",
-    "price": 114.5,
-    "discountPercentage": 9,
-    "rating": 3.0,
-    "stock": 104,
+    "title": "Gold-Plated Watch",
+    "description": "Elegant gold-plated wristwatch with leather strap.",
+    "category": "accessories",
+    "price": 299.99,
+    "discountPercentage": 15.0,
+    "rating": 4.8,
+    "stock": 70,
     "tags": [
-      "furniture",
-      "new"
+      "watch",
+      "luxury"
     ],
-    "brand": "Brand27",
-    "sku": "FUR-027",
-    "weight": 4,
+    "brand": "TimeLux",
+    "sku": "ACC-WCH-027",
+    "weight": 0.5,
     "dimensions": {
-      "width": 37,
-      "height": 12,
-      "depth": 21
+      "width": 5,
+      "height": 1,
+      "depth": 5
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "warrantyInformation": "2 years warranty",
+    "shippingInformation": "Ships in 5-7 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
     "returnPolicy": "30-day return policy",
@@ -1044,38 +1051,38 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000027",
+      "barcode": "1234567890027",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": false,
+    "isFeatured": true,
     "images": [
-      "https://picsum.photos/seed/furniture27/400/300"
+      "https://picsum.photos/seed/watch2/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/furniture27thumb/200/200"
+    "thumbnail": "/images/products/watch1.jpg"
   },
   {
     "id": 28,
-    "title": "Sample Accessories Product 28",
-    "description": "A high-quality accessories product, model 28.",
+    "title": "Silver Necklace",
+    "description": "Sterling silver necklace with minimalist pendant.",
     "category": "accessories",
-    "price": 118.0,
-    "discountPercentage": 10,
-    "rating": 3.5,
-    "stock": 106,
+    "price": 89.99,
+    "discountPercentage": 8.0,
+    "rating": 4.6,
+    "stock": 100,
     "tags": [
-      "accessories",
-      "new"
+      "necklace",
+      "jewelry"
     ],
-    "brand": "Brand28",
-    "sku": "ACC-028",
-    "weight": 5,
+    "brand": "ShineBright",
+    "sku": "ACC-NCK-028",
+    "weight": 0.2,
     "dimensions": {
-      "width": 38,
-      "height": 13,
-      "depth": 15
+      "width": 12,
+      "height": 1,
+      "depth": 0.5
     },
     "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "shippingInformation": "Ships in 3-5 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
     "returnPolicy": "30-day return policy",
@@ -1083,77 +1090,77 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000028",
+      "barcode": "1234567890028",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
     "isFeatured": false,
     "images": [
-      "https://picsum.photos/seed/accessories28/400/300"
+      "https://picsum.photos/seed/necklace1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/accessories28thumb/200/200"
+    "thumbnail": "/images/products/necklace1.jpg"
   },
   {
     "id": 29,
-    "title": "Sample Shoes Product 29",
-    "description": "A high-quality shoes product, model 29.",
-    "category": "shoes",
-    "price": 121.5,
-    "discountPercentage": 11,
-    "rating": 4.0,
-    "stock": 108,
+    "title": "Baseball Cap",
+    "description": "Cotton baseball cap with adjustable strap.",
+    "category": "accessories",
+    "price": 24.99,
+    "discountPercentage": 6.0,
+    "rating": 4.3,
+    "stock": 160,
     "tags": [
-      "shoes",
-      "new"
+      "cap",
+      "casual"
     ],
-    "brand": "Brand29",
-    "sku": "SHO-029",
-    "weight": 6,
+    "brand": "HeadGear",
+    "sku": "ACC-CAP-029",
+    "weight": 0.3,
     "dimensions": {
-      "width": 39,
-      "height": 14,
-      "depth": 16
+      "width": 20,
+      "height": 10,
+      "depth": 15
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "warrantyInformation": "6 months warranty",
+    "shippingInformation": "Ships in 2-3 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
-    "returnPolicy": "30-day return policy",
+    "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000029",
+      "barcode": "1234567890029",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
     "isFeatured": false,
     "images": [
-      "https://picsum.photos/seed/shoes29/400/300"
+      "https://picsum.photos/seed/cap1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/shoes29thumb/200/200"
+    "thumbnail": "/images/products/hat1.jpg"
   },
   {
     "id": 30,
-    "title": "Sample Electronics Product 30",
-    "description": "A high-quality electronics product, model 30.",
-    "category": "electronics",
-    "price": 125.0,
-    "discountPercentage": 2,
-    "rating": 3.0,
-    "stock": 110,
+    "title": "Handbag Classic",
+    "description": "Leather handbag with spacious compartments.",
+    "category": "accessories",
+    "price": 199.99,
+    "discountPercentage": 9.0,
+    "rating": 4.5,
+    "stock": 85,
     "tags": [
-      "electronics",
-      "new"
+      "handbag",
+      "bag"
     ],
-    "brand": "Brand30",
-    "sku": "ELE-030",
-    "weight": 2,
+    "brand": "Elegance",
+    "sku": "ACC-HND-030",
+    "weight": 1.8,
     "dimensions": {
       "width": 40,
-      "height": 5,
-      "depth": 17
+      "height": 30,
+      "depth": 15
     },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 3-7 business days",
+    "warrantyInformation": "2 years warranty",
+    "shippingInformation": "Ships in 5-7 business days",
     "availabilityStatus": "In Stock",
     "reviews": [],
     "returnPolicy": "30-day return policy",
@@ -1161,13 +1168,13 @@
     "meta": {
       "createdAt": "2025-08-22T09:00:00Z",
       "updatedAt": "2025-08-22T09:00:00Z",
-      "barcode": "0000000000030",
+      "barcode": "1234567890030",
       "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
     },
-    "isFeatured": false,
+    "isFeatured": true,
     "images": [
-      "https://picsum.photos/seed/electronics30/400/300"
+      "https://picsum.photos/seed/handbag1/400/300"
     ],
-    "thumbnail": "https://picsum.photos/seed/electronics30thumb/200/200"
+    "thumbnail": "/images/products/bag2.jpg"
   }
 ]

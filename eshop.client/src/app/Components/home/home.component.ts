@@ -16,6 +16,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.productService.getFeaturedProducts().subscribe(products => {
+      products.forEach(p => {
+        p.thumbnail = this.productService.getFullImageUrl(p.thumbnail);
+      });
       this.featuredProducts = products;
     });
   }

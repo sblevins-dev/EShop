@@ -38,6 +38,9 @@ export class ProductPageComponent {
           this.selectedCategory = category;
           this.applyFilters();
         });
+        this.products.forEach(p => {
+          p.thumbnail = this.productService.getFullImageUrl(p.thumbnail);
+        });
       });
     }
   }
