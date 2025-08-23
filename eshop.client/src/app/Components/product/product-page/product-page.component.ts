@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
-import { Product, ProductService } from '../../Services/product.service';
+import { Product, ProductService } from '../../../Services/product.service';
 import { ActivatedRoute } from '@angular/router';
-import { CartService } from '../../Services/cart.service';
+import { CartService } from '../../../Services/cart.service';
 
 @Component({
   selector: 'app-product-page',
@@ -23,15 +23,6 @@ export class ProductPageComponent {
   showToast: boolean = false;
 
   ngOnInit(): void {
-    const id = this.route.snapshot.paramMap.get('id');
-
-    if (id) {
-      // Single product view
-      this.productService.getProductById(+id).subscribe((data) => {
-        this.product = data;
-      });
-    } else {
-      // List all products
       this.productService.getProducts().subscribe((data) => {
         this.products = data;
         this.categories = Array.from(new Set(data.map(p => p.category)));
@@ -45,7 +36,6 @@ export class ProductPageComponent {
           p.thumbnail = this.productService.getFullImageUrl(p.thumbnail);
         });
       });
-    }
   }
 
   applyFilters() {

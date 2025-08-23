@@ -1,14 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './Components/home/home.component';
-import { ProductPageComponent } from './Components/product-page/product-page.component';
+import { ProductPageComponent } from './Components/product/product-page/product-page.component';
 import { CartComponent } from './Components/cart/cart.component';
+import { ProductDetailComponent } from './Components/product/product-detail/product-detail.component';
+import { AboutComponent } from './Components/about/about.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'products', component: ProductPageComponent },
-  { path: 'products/:id', component: ProductPageComponent },
+  { path: 'products/:id', component: ProductDetailComponent },
   { path: 'cart', component: CartComponent },
+  { path: 'about', component: AboutComponent },
   { path: '**', redirectTo: '' }
 ];
 

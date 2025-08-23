@@ -24,7 +24,29 @@
     "warrantyInformation": "6 months warranty",
     "shippingInformation": "Ships in 3-5 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -64,7 +86,29 @@
     "warrantyInformation": "1 year warranty",
     "shippingInformation": "Ships in 3-5 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -103,7 +147,29 @@
     "warrantyInformation": "6 months warranty",
     "shippingInformation": "Ships in 3-5 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -143,7 +209,29 @@
     "warrantyInformation": "1 year warranty",
     "shippingInformation": "Ships in 5-7 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -183,7 +271,29 @@
     "warrantyInformation": "3 months warranty",
     "shippingInformation": "Ships in 2-4 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -222,7 +332,29 @@
     "warrantyInformation": "1 year warranty",
     "shippingInformation": "Ships in 4-6 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -262,7 +394,29 @@
     "warrantyInformation": "6 months warranty",
     "shippingInformation": "Ships in 3-5 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -301,7 +455,29 @@
     "warrantyInformation": "6 months warranty",
     "shippingInformation": "Ships in 3-5 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -341,7 +517,29 @@
     "warrantyInformation": "1 year warranty",
     "shippingInformation": "Ships in 2-4 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -380,7 +578,29 @@
     "warrantyInformation": "2 years warranty",
     "shippingInformation": "Ships in 3-5 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -419,7 +639,29 @@
     "warrantyInformation": "1 year warranty",
     "shippingInformation": "Ships in 2-3 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -458,7 +700,29 @@
     "warrantyInformation": "1 year warranty",
     "shippingInformation": "Ships in 2-4 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -497,7 +761,29 @@
     "warrantyInformation": "1 year warranty",
     "shippingInformation": "Ships in 2-3 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -536,7 +822,29 @@
     "warrantyInformation": "1 year warranty",
     "shippingInformation": "Ships in 5-7 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -575,7 +883,29 @@
     "warrantyInformation": "1 year warranty",
     "shippingInformation": "Ships in 2-4 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -615,7 +945,29 @@
     "warrantyInformation": "2 years warranty",
     "shippingInformation": "Ships in 5-7 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -654,7 +1006,29 @@
     "warrantyInformation": "3 years warranty",
     "shippingInformation": "Ships in 7-10 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -694,7 +1068,29 @@
     "warrantyInformation": "5 years warranty",
     "shippingInformation": "Ships in 10-15 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "No return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -733,7 +1129,29 @@
     "warrantyInformation": "2 years warranty",
     "shippingInformation": "Ships in 7-9 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -772,7 +1190,29 @@
     "warrantyInformation": "5 years warranty",
     "shippingInformation": "Ships in 10-14 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -811,7 +1251,29 @@
     "warrantyInformation": "3 years warranty",
     "shippingInformation": "Ships in 5-8 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -850,7 +1312,29 @@
     "warrantyInformation": "2 years warranty",
     "shippingInformation": "Ships in 4-6 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -889,7 +1373,29 @@
     "warrantyInformation": "1 year warranty",
     "shippingInformation": "Ships in 2-3 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -928,7 +1434,29 @@
     "warrantyInformation": "6 months warranty",
     "shippingInformation": "Ships in 2-4 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -967,7 +1495,29 @@
     "warrantyInformation": "1 year warranty",
     "shippingInformation": "Ships in 3-5 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -1006,7 +1556,29 @@
     "warrantyInformation": "2 years warranty",
     "shippingInformation": "Ships in 4-6 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -1045,7 +1617,29 @@
     "warrantyInformation": "2 years warranty",
     "shippingInformation": "Ships in 5-7 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -1084,7 +1678,29 @@
     "warrantyInformation": "1 year warranty",
     "shippingInformation": "Ships in 3-5 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -1123,7 +1739,29 @@
     "warrantyInformation": "6 months warranty",
     "shippingInformation": "Ships in 2-3 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "15-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {
@@ -1162,7 +1800,29 @@
     "warrantyInformation": "2 years warranty",
     "shippingInformation": "Ships in 5-7 business days",
     "availabilityStatus": "In Stock",
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this product! High quality and exceeded my expectations.",
+        "date": "2025-08-01T10:15:00.000Z",
+        "reviewerName": "Alice Johnson",
+        "reviewerEmail": "alice.johnson@example.com"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good, but shipping took a little longer than expected.",
+        "date": "2025-08-05T14:30:00.000Z",
+        "reviewerName": "Michael Smith",
+        "reviewerEmail": "michael.smith@example.com"
+      },
+      {
+        "rating": 3,
+        "comment": "Decent product for the price, but could be improved in build quality.",
+        "date": "2025-08-10T09:45:00.000Z",
+        "reviewerName": "Samantha Lee",
+        "reviewerEmail": "samantha.lee@example.com"
+      }
+    ],
     "returnPolicy": "30-day return policy",
     "minimumOrderQuantity": 1,
     "meta": {

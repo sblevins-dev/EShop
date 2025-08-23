@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 export class CartComponent implements OnInit {
   cartItems: CartItem[] = [];
   total = 0;
+  tax = 0;
   cartService: CartService = inject(CartService);
   router: Router = inject(Router);
 
@@ -17,6 +18,8 @@ export class CartComponent implements OnInit {
     this.cartService.cart$.subscribe(items => {
       this.cartItems = items;
       this.total = items.reduce((acc, item) => acc + item.product.price * item.quantity, 0);
+      this.tax = this.total * 0.07
+      this.total += this.tax;
     });
   }
 
