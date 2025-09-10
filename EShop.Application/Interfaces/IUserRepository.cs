@@ -11,5 +11,7 @@ namespace EShop.Application.Interfaces
     {
         Task<User?> GetByUsernameAsync(string username);
         Task AddUserAsync(User user);
+        Task UpdateUserAsync(User user);
+        Task DeleteUserAsync(int userId);
     }
 }

@@ -1,4 +1,5 @@
 ﻿using EShop.Application.Services;
+using EShop.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -37,6 +38,46 @@ namespace EShop.Server.Controllers
             }
             return Unauthorized("Invalid username or password.");
         }
+
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] RegisterRequest request)
+        {
+            // Check if the username already exists
+            var existingUser = await _userService.GetUserByIdAsync(request.Username);
+            if (existingUser != null)
+                return BadRequest("Username already exists.");
+
+            // Create new user
+            var user = new User
+            {
+                Email = request.Username
+                // DBId will be generated automatically by EF
+            };
+
+            // Hash the password
+            user.PasswordHash = _userService.HashPassword(user, request.Password);
+
+            // Add user to the repository
+            await _userService.AddUserAsync(user);
+
+            // Optionally generate JWT immediately after registration
+            var token = GenerateJwtToken(user.Email);
+
+            return Ok(new
+            {
+                Token = token,
+                UserId = user.Id,
+                Email = user.Email
+            });
+        }
+
+        // DTO for registration
+        public class RegisterRequest
+        {
+            public string Username { get; set; } = string.Empty;
+            public string Password { get; set; } = string.Empty;
+        }
+
 
         private string GenerateJwtToken(string username)
         {
