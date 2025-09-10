@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using EShop.Application.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace EShop.Server.Controllers
 {
@@ -9,21 +11,29 @@ namespace EShop.Server.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IConfiguration _configuration;
+        private readonly UserService _userService;
 
-        public AuthController(IConfiguration configuration)
+        public AuthController(IConfiguration configuration, UserService userService)
         {
             _configuration = configuration;
+            _userService = userService;
         }
 
         [HttpPost("login")]
-        public IActionResult Login([FromBody] LoginRequest request)
+        public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {
-            // For demonstration, using hardcoded username and password.
-            // In a real application, validate against a user store (e.g., database).
-            if (request.Username == "testuser" && request.Password == "password123")
+            var user = await _userService.GetUserByIdAsync(request.Username);
+            if (user != null && _userService.VerifyPassword(user, request.Password))
             {
                 var token = GenerateJwtToken(request.Username);
-                return Ok(new { Token = token });
+
+                var response = new
+                {
+                    Token = token,
+                    UserId = user.Id
+                };
+
+                return Ok(response);
             }
             return Unauthorized("Invalid username or password.");
         }

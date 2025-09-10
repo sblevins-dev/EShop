@@ -12,9 +12,10 @@ export class AuthService {
   constructor(private http: HttpClient) { }
 
   login(username: string, password: string) {
-    return this.http.post<{ token: string }>(`${this.apiUrl}/login`, { username, password })
+    return this.http.post<{ token: string; userId: number }>(`${this.apiUrl}/login`, { username, password })
       .pipe(tap(res => {
         localStorage.setItem(this.tokenKey, res.token);
+        localStorage.setItem('eshop_user', res.userId.toString());
       }));
   }
 

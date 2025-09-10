@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Product } from './product.service';
 import { BehaviorSubject } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 
 export interface CartItem {
   product: Product;
@@ -11,13 +12,22 @@ export interface CartItem {
   providedIn: 'root'
 })
 export class CartService {
+  private apiUrl = 'https://localhost:7217/api/Cart';
   private storageKey = 'eshop_cart';
   private items: CartItem[] = [];
   private cartSubject = new BehaviorSubject<CartItem[]>([]);
   cart$ = this.cartSubject.asObservable();
 
-  constructor() {
+  constructor(private http: HttpClient) {
     this.loadCart();
+  }
+
+  getCartFromApi(userId: string) {
+    return this.http.get<CartItem[]>(`${this.apiUrl}/${userId}`);
+  }
+
+  saveCartToApi(userId: string) {
+    return this.http.post(`${this.apiUrl}/${userId}`, this.items);
   }
 
   private loadCart() {
@@ -74,5 +84,28 @@ export class CartService {
 
   getTotal(): number {
     return this.items.reduce((total, item) => total + item.product.price * item.quantity, 0);
+  }
+
+  mergeCarts(local: CartItem[], backend: CartItem[]): CartItem[] {
+    const merged: CartItem[] = [...backend];
+
+    local.forEach(localItem => {
+      const existing = merged.find(b => b.product.id === localItem.product.id);
+      if (existing) {
+        existing.quantity += localItem.quantity;
+      } else {
+        merged.push(localItem);
+      }
+    });
+
+    return merged;
+  }
+
+  updateCartAfterLogin(backendCart: CartItem[]) {
+    const localCart = this.getItems();
+    const mergedCart = this.mergeCarts(localCart, backendCart);
+    this.items = mergedCart;
+    this.saveCart();
+    this.cartSubject.next(this.items);
   }
 }

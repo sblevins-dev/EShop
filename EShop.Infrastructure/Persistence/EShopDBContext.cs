@@ -16,8 +16,9 @@ namespace EShop.Infrastructure.Persistence
         }
 
         public DbSet<Product> Products => Set<Product>();
-        public DbSet<CartItem> CartItems => Set<CartItem>();
         public DbSet<User> Users => Set<User>();
+        public DbSet<Cart> Carts => Set<Cart>();
+        public DbSet<CartItem> CartItems => Set<CartItem>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
