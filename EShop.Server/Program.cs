@@ -2,6 +2,7 @@ using EShop.Application.Interfaces;
 using EShop.Application.Services;
 using EShop.Infrastructure.Persistence;
 using EShop.Infrastructure.Repositories;
+using EShop.Infrastructure.Seeders;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -18,6 +19,11 @@ builder.Services.AddCors(options =>
                           .AllowAnyMethod()
                           .AllowAnyHeader());
 });
+
+var connectionString = Environment.GetEnvironmentVariable("EShop_Connection");
+
+builder.Services.AddDbContext<EShopDBContext>(options =>
+    options.UseSqlServer(connectionString));
 
 // JWT Config
 var key = builder.Configuration["Jwt:Secret"]; // from appsettings.json
@@ -49,6 +55,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+using(var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<EShopDBContext>();
+    dbContext.Database.Migrate();
+    await DbSeeder.SeedProducts(dbContext);
+}
 
 app.UseDefaultFiles();
 app.UseStaticFiles();

@@ -16,5 +16,24 @@ namespace EShop.Infrastructure.Persistence
         }
 
         public DbSet<Product> Products => Set<Product>();
+        public DbSet<CartItem> CartItems => Set<CartItem>();
+        public DbSet<User> Users => Set<User>();
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Product>().OwnsOne(p => p.Dimensions);
+            modelBuilder.Entity<Product>().OwnsOne(p => p.Meta);
+            modelBuilder.Entity<Product>().OwnsMany(p => p.Reviews);
+
+            modelBuilder.Entity<Product>()
+                .Property(p => p.Price)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<Product>()
+                .Property(p => p.DiscountPercentage)
+                .HasPrecision(5, 2);
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

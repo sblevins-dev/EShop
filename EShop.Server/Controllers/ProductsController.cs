@@ -21,25 +21,8 @@ namespace EShop.Server.Controllers
         [HttpGet("featured")]
         public async Task<IActionResult> GetFeaturedProducts()
         {
-            //var products = await _context.Products.Where(p => p.IsFeatured).ToListAsync();
-            //return Ok(products);
-
-            var filePath = Path.Combine(AppContext.BaseDirectory, "Data", "products.json");
-
-            var options = new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            };
-
-            if (!System.IO.File.Exists(filePath))
-                return NotFound("Mock products file not found.");
-
-
-            var json = System.IO.File.ReadAllText(filePath);
-            var products = JsonSerializer.Deserialize<List<Product>>(json, options);
-
-            var featured = (products ?? []).Where(p => p.IsFeatured).ToList();
-
+            var products = await _productService.GetProducts();
+            var featured = products.Where(p => p.IsFeatured).ToList();
             return Ok(featured);
         }
 
@@ -47,65 +30,35 @@ namespace EShop.Server.Controllers
         [HttpGet]
         public async Task<IActionResult> GetProducts()
         {
-            //var products = await _productService.GetProducts();
-            //return Ok(products);
-            var filePath = Path.Combine(AppContext.BaseDirectory, "Data", "products.json");
-
-            var options = new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            };
-
-            if (!System.IO.File.Exists(filePath))
-                return NotFound("Mock products file not found.");
-
-
-            var json = System.IO.File.ReadAllText(filePath);
-            var products = JsonSerializer.Deserialize<List<Product>>(json, options);
-
+            var products = await _productService.GetProducts();
             return Ok(products);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProduct(int id)
         {
-            //var product = await _productService.GetProduct(id);
-            //if (product == null)
-            //{
-            //    return NotFound();
-            //}
-            //return Ok(product);
-            var filePath = Path.Combine(AppContext.BaseDirectory, "Data", "products.json");
-
-            var options = new JsonSerializerOptions
+            var product = await _productService.GetProduct(id);
+            if (product == null)
             {
-                PropertyNameCaseInsensitive = true
-            };
-
-            if (!System.IO.File.Exists(filePath))
-                return NotFound("Mock products file not found.");
-
-
-            var json = System.IO.File.ReadAllText(filePath);
-            var products = JsonSerializer.Deserialize<List<Product>>(json, options);
-            var product = (products ?? []).FirstOrDefault(p => p.Id == id);
-
+                return NotFound();
+            }
             return Ok(product);
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddProduct([FromBody] Domain.Entities.Product product)
+        public async Task<IActionResult> AddProduct([FromBody] Product product)
         {
             if (product == null)
             {
                 return BadRequest("Product cannot be null");
             }
+            
             await _productService.AddProduct(product);
             return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProduct(int id, [FromBody] Domain.Entities.Product product)
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] Product product)
         {
             if (product == null || product.Id != id)
             {
