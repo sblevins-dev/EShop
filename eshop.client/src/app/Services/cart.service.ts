@@ -11,11 +11,26 @@ export interface CartItem {
   providedIn: 'root'
 })
 export class CartService {
+  private storageKey = 'eshop_cart';
   private items: CartItem[] = [];
   private cartSubject = new BehaviorSubject<CartItem[]>([]);
   cart$ = this.cartSubject.asObservable();
 
-  constructor() { }
+  constructor() {
+    this.loadCart();
+  }
+
+  private loadCart() {
+    const cart = localStorage.getItem(this.storageKey);
+    if (cart) {
+      this.items = JSON.parse(cart);
+      this.cartSubject.next(this.items);
+    }
+  }
+
+  private saveCart() {
+    localStorage.setItem(this.storageKey, JSON.stringify(this.items));
+  }
 
   addToCart(product: Product, quantity: number = 1) {
     const item = this.items.find(i => i.product.id === product.id);
@@ -26,6 +41,7 @@ export class CartService {
       this.items.push({ product, quantity });
     }
 
+    this.saveCart();
     this.cartSubject.next(this.items);
   }
 
@@ -41,6 +57,7 @@ export class CartService {
       if (item.quantity <= 0) {
         this.removeFromCart(productId);
       } else {
+        this.saveCart();
         this.cartSubject.next(this.items);
       }
     }

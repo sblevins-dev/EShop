@@ -1,0 +1,49 @@
+<div class="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+    <div class="max-w-md w-full bg-white rounded-2xl shadow-lg p-8">
+        <!-- Logo / Title -->
+        <div class="text-center mb-6">
+            <h1 class="text-3xl font-bold text-gray-900">Welcome Back 👋</h1>
+            <p class="text-gray-600 mt-2">Login to continue shopping at <span
+                    class="text-indigo-600 font-semibold">EShop</span></p>
+        </div>
+
+        <!-- Error Message -->
+        <div *ngIf="errorMessage" class="text-red-500 mb-4 text-sm text-center">
+            {{ errorMessage }}
+        </div>
+
+        <!-- Form -->
+        <form #loginForm="ngForm" (ngSubmit)="onLogin(loginForm)">
+            <!-- Email -->
+            <div class="mb-4">
+                <label>Email</label>
+                <input type="email" name="email" [(ngModel)]="email" required placeholder="you@example.com"
+                    class="w-full px-4 py-2 border rounded" />
+                <div *ngIf="loginForm.submitted && !email" class="text-red-500 text-sm mt-1">
+                    Email is required
+                </div>
+            </div>
+
+            <!-- Password -->
+            <div class="mb-4">
+                <label>Password</label>
+                <input type="password" name="password" [(ngModel)]="password" required placeholder="••••••••"
+                    class="w-full px-4 py-2 border rounded" />
+                <div *ngIf="loginForm.submitted && !password" class="text-red-500 text-sm mt-1">
+                    Password is required
+                </div>
+            </div>
+
+            <button type="submit" class="bg-indigo-600 text-white px-4 py-2 rounded w-full hover:bg-indigo-700 transition">
+                Login
+            </button>
+        </form>
+
+
+        <!-- Sign Up -->
+        <p class="text-center text-sm text-gray-600 mt-6">
+            Don’t have an account?
+            <a routerLink="/register" class="text-indigo-600 font-semibold hover:underline">Sign up</a>
+        </p>
+    </div>
+</div>
