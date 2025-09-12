@@ -2,6 +2,7 @@ import { Component, inject } from '@angular/core';
 import { Product, ProductService } from '../../../Services/product.service';
 import { ActivatedRoute } from '@angular/router';
 import { CartService } from '../../../Services/cart.service';
+import { UserService } from '../../../Services/user.service';
 
 @Component({
   selector: 'app-product-page',
@@ -16,6 +17,7 @@ export class ProductPageComponent {
   productService: ProductService = inject(ProductService);
   route: ActivatedRoute = inject(ActivatedRoute);
   cartService = inject(CartService);
+  userService = inject(UserService);
   categories: string[] = [];
   selectedCategory: string = 'All';
   filteredProducts: Product[] = [];
@@ -25,7 +27,7 @@ export class ProductPageComponent {
   ngOnInit(): void {
       this.productService.getProducts().subscribe((data) => {
         this.products = data;
-        this.categories = Array.from(new Set(data.map(p => p.category)));
+        this.categories = Array.from(new Set(data.map(p => String(p.category))));
         this.categories.unshift('All'); // Add 'All' option at the beginning
         this.route.queryParams.subscribe(params => {
           const category = params['category'] || 'All';
@@ -40,7 +42,7 @@ export class ProductPageComponent {
 
   applyFilters() {
     this.filteredProducts = this.products.filter(p => {
-      const categoryCheck = this.selectedCategory === 'All' ? true : p.category === this.selectedCategory;
+      const categoryCheck = this.selectedCategory === 'All' ? true : String(p.category) === this.selectedCategory;
       const minCheck = this.minPrice != null ? p.price >= this.minPrice : true;
       const maxCheck = this.maxPrice != null ? p.price <= this.maxPrice : true;
       return categoryCheck && minCheck && maxCheck;
@@ -49,7 +51,8 @@ export class ProductPageComponent {
 
 
   addToCart(product: Product) {
-    this.cartService.addToCart(product);
+    const userId = this.userService.getCurrentUserId() ?? undefined;
+    this.cartService.addToCart(product, 1, userId);
     this.showToast = true;
     this.toastMessage = `${product.title} has been added to your cart.`;
 
@@ -61,7 +64,7 @@ export class ProductPageComponent {
     if (category === 'All') {
       this.filteredProducts = this.products;
     } else {
-      this.filteredProducts = this.products.filter(p => p.category === category);
+      this.filteredProducts = this.products.filter(p => String(p.category) === category);
     }
   }
 
@@ -69,7 +72,7 @@ export class ProductPageComponent {
     this.filteredProducts = this.products.filter(p => {
       const minCheck = this.minPrice != null ? p.price >= this.minPrice : true;
       const maxCheck = this.maxPrice != null ? p.price <= this.maxPrice : true;
-      const categoryCheck = this.selectedCategory === 'All' ? true : p.category === this.selectedCategory;
+      const categoryCheck = this.selectedCategory === 'All' ? true : String(p.category) === this.selectedCategory;
       return minCheck && maxCheck && categoryCheck;
     });
   }

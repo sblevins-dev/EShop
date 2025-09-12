@@ -34,6 +34,28 @@ namespace EShop.Infrastructure.Persistence
                 .Property(p => p.DiscountPercentage)
                 .HasPrecision(5, 2);
 
+            // User -> Cart (one-to-one)
+            modelBuilder.Entity<User>()
+                .HasOne(u => u.Cart)
+                .WithOne(c => c.User)
+                .HasForeignKey<Cart>(c => c.UserId)
+                .OnDelete(DeleteBehavior.Restrict); // IMPORTANT: no cascade here
+
+            // Cart -> CartItems (one-to-many)
+            modelBuilder.Entity<Cart>()
+                .HasMany(c => c.Items)
+                .WithOne(i => i.Cart)
+                .HasForeignKey(i => i.CartId)
+                .OnDelete(DeleteBehavior.Cascade); // safe: deleting Cart deletes its items
+
+            // CartItem -> Product (many-to-one)
+            modelBuilder.Entity<CartItem>()
+                .HasOne(i => i.Product)
+                .WithMany()
+                .HasForeignKey(i => i.ProductId)
+                .OnDelete(DeleteBehavior.Restrict); // do not delete products
+
+
             base.OnModelCreating(modelBuilder);
         }
     }

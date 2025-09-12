@@ -1,0 +1,54 @@
+<div class="flex min-h-screen items-center justify-center bg-gray-100">
+  <div class="w-full max-w-md bg-white p-8 rounded-2xl shadow-lg">
+    <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">Create Account</h2>
+
+    <form #form="ngForm" (ngSubmit)="onRegister(form)" class="space-y-4" novalidate>
+      <!-- Email -->
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Email</label>
+        <input type="email" name="email" [(ngModel)]="email" #emailField="ngModel" required
+          class="mt-1 w-full px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+          placeholder="you@example.com" />
+      </div>
+
+      <!-- Password -->
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Password</label>
+        <input type="password" name="password" [(ngModel)]="password" #passwordField="ngModel" required minlength="6"
+          class="mt-1 w-full px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+          placeholder="••••••••" />
+      </div>
+
+      <!-- Confirm Password -->
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Confirm Password</label>
+        <input type="password" name="confirmPassword" [(ngModel)]="confirmPassword" #confirmPasswordField="ngModel"
+          required
+          class="mt-1 w-full px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+          placeholder="••••••••" />
+      </div>
+
+      <!-- Error Message -->
+      <div *ngIf="errorMessage" class="text-sm text-red-600 bg-red-100 p-2 rounded-md">
+        {{ errorMessage }}
+      </div>
+
+      <!-- Success Message -->
+      <div *ngIf="successMessage" class="text-sm text-green-600 bg-green-100 p-2 rounded-md">
+        {{ successMessage }}
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit"
+        class="bg-indigo-600 text-white px-4 py-2 rounded w-full hover:bg-indigo-700 transition">
+        Register
+      </button>
+    </form>
+
+    <p class="text-center text-sm text-gray-600 mt-4">
+      Already have an account?
+      <a routerLink="/login" class="text-indigo-600 font-semibold hover:underline">Login here</a>
+    </p>
+  </div>
+
+</div>

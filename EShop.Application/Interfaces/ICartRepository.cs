@@ -9,8 +9,9 @@ namespace EShop.Application.Interfaces
 {
     public interface ICartRepository
     {
-        Task<Cart> GetCartByUserIdAsync(string userId);
-        Task AddOrUpdateCartAsync(Cart cart);
-        Task ClearCartAsync(string userId);
+        Task<Cart> GetCartByUserIdAsync(int userId);
+        Task AddItemToCartAsync(int userId, int productId, int quantity);
+        Task RemoveItemFromCartAsync(int userId, int productId);
+        Task ClearCartAsync(int userId);
     }
 }

@@ -44,6 +44,10 @@
   </div>
 </div>
 
+<div *ngIf="filteredProducts.length === 0" class="text-center text-gray-500 mt-10">
+  No products found matching the selected criteria.
+</div>
+
 <div *ngIf="showToast"
   class="fixed bottom-5 right-5 bg-green-500 text-white px-4 py-2 rounded shadow-lg animate-slide-in">
   {{ toastMessage }}

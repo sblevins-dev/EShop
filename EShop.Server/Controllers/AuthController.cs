@@ -67,7 +67,6 @@ namespace EShop.Server.Controllers
             {
                 Token = token,
                 UserId = user.Id,
-                Email = user.Email
             });
         }
 

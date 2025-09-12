@@ -21,9 +21,18 @@ export class AuthService {
 
   logout() {
     localStorage.removeItem(this.tokenKey);
+    localStorage.removeItem('eshop_user');
   }
 
   isLoggedIn(): boolean {
     return !!localStorage.getItem(this.tokenKey);
+  }
+
+  register(username: string, password: string) {
+    return this.http.post<{ token: string; userId: number }>(`${this.apiUrl}/register`, { username, password })
+      .pipe(tap(res => {
+        localStorage.setItem(this.tokenKey, res.token);
+        localStorage.setItem('eshop_user', res.userId.toString());
+      }));
   }
 }

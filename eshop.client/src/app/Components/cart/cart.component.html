@@ -24,7 +24,7 @@
         <h3 class="font-semibold">{{ item.product.title }}</h3>
         <p class="text-gray-600">${{ item.product.price }} x 
           <input type="number" min="1" [value]="item.quantity" 
-                 (change)="updateQuantity(item.product.id, $any($event.target).value)" 
+                 (change)="updateQuantity(item.product, $any($event.target).value)" 
                  class="w-16 text-center border rounded"/>
         </p>
       </div>

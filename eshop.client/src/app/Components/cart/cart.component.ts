@@ -1,6 +1,8 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { CartItem, CartService } from '../../Services/cart.service';
 import { Router } from '@angular/router';
+import { UserService } from '../../Services/user.service';
+import { Product } from '../../Services/product.service';
 
 @Component({
   selector: 'app-cart',
@@ -13,6 +15,7 @@ export class CartComponent implements OnInit {
   tax = 0;
   cartService: CartService = inject(CartService);
   router: Router = inject(Router);
+  userService = inject(UserService);
 
   ngOnInit(): void {
     this.cartService.cart$.subscribe(items => {
@@ -24,11 +27,12 @@ export class CartComponent implements OnInit {
   }
 
   removeItem(productId: number) {
-    this.cartService.removeFromCart(productId);
+    const userId = this.userService.getCurrentUserId() ?? undefined;
+    this.cartService.removeFromCart(productId, userId);
   }
 
-  updateQuantity(productId: number, quantity: number) {
-    this.cartService.updateQuantity(productId, quantity);
+  updateQuantity(product: Product, quantity: number) {
+    this.cartService.updateQuantity(product, quantity);
   }
 
   goToProducts() {

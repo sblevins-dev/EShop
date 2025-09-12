@@ -23,16 +23,17 @@ export class LoginComponent {
 
     this.authService.login(this.email, this.password).subscribe({
       next: user => {
-        this.cartService.getCartFromApi(user.userId.toString()).subscribe(backendCart => {
-          this.cartService.updateCartAfterLogin(backendCart);
-          this.cartService.saveCartToApi(user.userId.toString()).subscribe();
+        const userId = user.userId.toString();
+        this.cartService.getCartFromApi(userId).subscribe(backendCart => {
+          this.cartService.updateCartAfterLogin(userId, backendCart);
         });
         this.router.navigate(['/']);
       },
-      error: (err) => {
+      error: err => {
         this.errorMessage = 'Login failed. Please check your credentials.';
         console.error('Login error:', err);
       }
     });
+
   }
 }

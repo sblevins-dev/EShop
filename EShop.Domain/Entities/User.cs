@@ -11,6 +11,6 @@ namespace EShop.Domain.Entities
         public int Id { get; set; }
         public string Email { get; set; } = string.Empty;
         public string PasswordHash { get; set; } = string.Empty;
-        public ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
+        public Cart? Cart { get; set; } = new Cart();
     }
 }
