@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { tap } from 'rxjs';
+import { CartService } from './cart.service';
 
 @Injectable({
   providedIn: 'root'
@@ -8,6 +9,7 @@ import { tap } from 'rxjs';
 export class AuthService {
   private apiUrl = 'https://localhost:7217/api/Auth';
   private tokenKey = 'eshop_token';
+  cartService = inject(CartService);
 
   constructor(private http: HttpClient) { }
 
@@ -22,6 +24,7 @@ export class AuthService {
   logout() {
     localStorage.removeItem(this.tokenKey);
     localStorage.removeItem('eshop_user');
+    this.cartService.clearCart();
   }
 
   isLoggedIn(): boolean {
