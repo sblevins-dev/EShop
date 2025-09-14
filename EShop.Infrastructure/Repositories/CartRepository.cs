@@ -1,4 +1,5 @@
-﻿using EShop.Application.Interfaces;
+﻿using EShop.Application.DTOs;
+using EShop.Application.Interfaces;
 using EShop.Domain.Entities;
 using EShop.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
@@ -85,6 +86,39 @@ namespace EShop.Infrastructure.Repositories
                 cart.Items.Clear();
                 await _context.SaveChangesAsync();
             }
+        }
+
+        public async Task MergeCartAsync(int userId, List<CartItemDto> items)
+        {
+            var cart = await _context.Carts
+                .Include(c => c.Items)
+                .FirstOrDefaultAsync(c => c.UserId == userId);
+
+            if (cart == null)
+            {
+                cart = new Cart { UserId = userId, Items = new List<CartItem>() };
+                _context.Carts.Add(cart);
+            }
+
+            foreach (var newItem in items)
+            {
+                var existingItem = cart.Items.FirstOrDefault(i => i.ProductId == newItem.Id);
+                if (existingItem != null)
+                {
+                    existingItem.Quantity += newItem.Quantity;
+                }
+                else
+                {
+                    cart.Items.Add(new CartItem
+                    {
+                        ProductId = newItem.Id,
+                        Quantity = newItem.Quantity,
+                        UserId = userId
+                    });
+                }
+            }
+
+            await _context.SaveChangesAsync();
         }
     }
 }

@@ -50,5 +50,8 @@ namespace EShop.Application.Services
 
         public async Task ClearCart(int userId) =>
             await _cartRepository.ClearCartAsync(userId);
+
+        public async Task MergeCart(int userId, List<CartItemDto> items) =>
+            await _cartRepository.MergeCartAsync(userId, items);
     }
 }

@@ -1,4 +1,5 @@
-﻿using EShop.Domain.Entities;
+﻿using EShop.Application.DTOs;
+using EShop.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +14,6 @@ namespace EShop.Application.Interfaces
         Task AddItemToCartAsync(int userId, int productId, int quantity);
         Task RemoveItemFromCartAsync(int userId, int productId);
         Task ClearCartAsync(int userId);
+        Task MergeCartAsync(int userId, List<CartItemDto> items);
     }
 }

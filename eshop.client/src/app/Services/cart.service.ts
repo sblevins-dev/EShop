@@ -99,7 +99,7 @@ export class CartService {
   }
 
   saveCartToApi(userId: string) {
-    return this.http.post(`${this.apiUrl}/${userId}`, this.items);
+    return this.http.post(`${this.apiUrl}/${userId}/merge`, this.items);
   }
 
   // ----- Merge local + backend cart -----

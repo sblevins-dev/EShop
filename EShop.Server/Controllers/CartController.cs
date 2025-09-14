@@ -45,5 +45,12 @@ namespace EShop.Server.Controllers
             await _cartService.ClearCart(userId);
             return Ok();
         }
+
+        [HttpPost("{userId}/merge")]
+        public async Task<IActionResult> MergeCart(int userId, [FromBody] List<CartItemDto> items)
+        {
+            await _cartService.MergeCart(userId, items);
+            return Ok();
+        }
     }
 }
