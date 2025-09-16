@@ -1,10 +1,10 @@
-# EShop2 🛒
+# EShop 🛒
 
 [![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)](https://angular.io/)  
 [![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)  
 [![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoft%20sql%20server&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
 
-EShop2 is a **full-stack web application** for browsing and managing products. The app features an **Angular** frontend, **ASP.NET Core** backend, and **SQL Server** database. Tailwind CSS is used for responsive and modern styling.
+EShop is a **full-stack web application** for browsing and managing products. The app features an **Angular** frontend, **ASP.NET Core** backend, and **SQL Server** database. Tailwind CSS is used for responsive and modern styling.
 
 ---
 
